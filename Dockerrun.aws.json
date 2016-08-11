@@ -1,0 +1,16 @@
+{
+  "AWSEBDockerrunVersion": "1",
+  "Image": {
+    "Name": "tabtor/blog:1.0",
+    "Update": "true"
+  },
+  "Authentication": {
+    "Bucket": "ecs-tabtor-web",
+    "Key": "docker/config.json"
+  },
+  "Ports": [
+    {
+      "ContainerPort": "80"
+    }
+  ]
+}

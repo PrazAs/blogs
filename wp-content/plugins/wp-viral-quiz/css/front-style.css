@@ -1,0 +1,765 @@
+@import url("//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css");
+
+/**
+ * Blank Skin for WP Viral Quiz.
+ * Use it and fill the blank to create your own skin.
+ */
+
+/**
+ * -- QUESTIONS --
+ */
+
+.wpvq {
+	max-width: 680px;
+}
+
+.wpvq-squeeze {
+	text-align: center;
+}
+
+.wpvq-question  {
+	margin: 0 0 40px 0;
+}
+
+.wpvq-question .wpvq-question-label {
+	margin: 0 0 20px 0;
+	font-weight: 600;
+	font-size: 24px;
+	padding: 0px;
+	text-align: center;
+}
+
+.wpvq-question .wpvq-question-img {
+	height: auto;
+	display: block;
+	margin: 0 auto 20px auto;
+}
+
+div.wpvq-next-page {
+	text-align: center;
+}
+
+
+
+
+/**
+ * -- ANSWERS --
+ */
+
+#preload-checkbox-loader { background: url(../views/img/big-loader.gif) no-repeat -9999px -9999px; }
+#preload-checkbox-big-loader { background: url(../views/img/loader.gif) no-repeat -9999px -9999px; }
+
+#wpvq-big-loader {
+	display: none;
+	text-align: center;
+}
+
+/* Answer div */
+.wpvq-answer {
+	padding: 7px;
+	margin: 0 0 15px 0;
+
+	/*CSS transitions*/
+	-o-transition-property: none !important;
+	-moz-transition-property: none !important;
+	-ms-transition-property: none !important;
+	-webkit-transition-property: none !important;
+	transition-property: none !important;
+	/*CSS transforms*/
+	-o-transform: none !important;
+	-moz-transform: none !important;
+	-ms-transform: none !important;
+	-webkit-transform: none !important;
+	transform: none !important;
+	/*CSS animations*/
+	-webkit-animation: none !important;
+	-moz-animation: none !important;
+	-o-animation: none !important;
+	-ms-animation: none !important;
+	animation: none !important;
+}
+
+/* Question line */
+.wpvq-question.wpvq-line .vq-css-label {
+	line-height: 130%;
+}
+
+/* Answer mouse hover */
+.wpvq-answer:hover {
+	cursor: pointer;
+}
+
+.wpvq-img-legal-label {
+	position:absolute;
+	bottom:0px;
+	right:0px;
+	font-size:8px;
+	background:rgba(0,0,0,.6);
+	color:white;
+	padding:2px 4px;
+}
+
+/* Answer selected (exception for personality, stuck the color) */
+.Personality .wpvq-answer.wpvq-choose {
+	background:#8ac5ff;
+}
+
+/* Answer image block */
+.wpvq-answer .wpvq-answer-img {
+	width: 100%;
+	height: auto;
+	display: block;
+	margin:0 auto;
+	margin-bottom:15px;
+	max-width: 300px;
+}
+
+/* When user select a right answer */
+.wpvq-answer.wpvq-answer-true {
+	
+}
+
+/* When user select a false answer */
+.wpvq-answer.wpvq-answer-false {
+	
+}
+
+/* When user select a photo neutral answer */
+.wpvq-answer.wpvq-answer-enabled {
+	
+}
+
+/* Answers disabled (after clicking an answer) */
+.wpvq-answer.wpvq-answer-disabled {
+	
+}
+
+/**
+ * -- STRUCTURE & GRID --
+ */
+
+.columns-1 .wpvq-question.wpvq-square .wpvq-answer {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	float: left;
+}
+.columns-2 .wpvq-question.wpvq-square .wpvq-answer {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	float: left;
+}
+.columns-3 .wpvq-question.wpvq-square .wpvq-answer {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	float: left;
+}
+.columns-4 .wpvq-question.wpvq-square .wpvq-answer {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	float: left;
+}
+
+
+.wpvq.columns-2 .wpvq-question.wpvq-square .wpvq-answer {
+	min-height: 365px;
+}
+
+.wpvq.columns-3 .wpvq-question.wpvq-square .wpvq-answer {
+	min-height: 250px;
+}
+
+.wpvq.columns-4 .wpvq-question.wpvq-square .wpvq-answer {
+	min-height: 195px;
+}
+
+
+/* ----------- for phones ----------- */
+
+/* Responsive Form at the end of the quiz */
+@media (max-width: 400px) { 
+	#wpvq-form-informations input[type=text] {
+		width:100% !important;
+	}
+}
+
+@media (min-width: 320px) { 
+
+	.columns-1 .wpvq-question.wpvq-square .wpvq-answer {
+		width: 100%;
+		margin: 1% 0;
+	}
+	.columns-2 .wpvq-question.wpvq-square .wpvq-answer {
+		width: 48%;
+		margin: 1%;
+	}
+	.columns-3 .wpvq-question.wpvq-square .wpvq-answer {
+		width: 47%;
+		margin: 1%;
+	}
+	.columns-4 .wpvq-question.wpvq-square .wpvq-answer {
+		width: 47%;
+		margin: 1%;
+	}
+
+	.wpvq.columns-2 .wpvq-question.wpvq-square .wpvq-answer,
+	.wpvq.columns-3 .wpvq-question.wpvq-square .wpvq-answer,
+	.wpvq.columns-4 .wpvq-question.wpvq-square .wpvq-answer {
+		min-height: 175px;
+	}
+
+}
+
+/* ----------- tablets + screen ----------- */
+@media (min-width: 700px) {
+
+
+  	.columns-1 .wpvq-question.wpvq-square .wpvq-answer {
+		width: 100%;
+		margin: 1% 0;
+	}
+	.columns-2 .wpvq-question.wpvq-square .wpvq-answer {
+		width: 48%;
+		margin: 1%;
+	}
+	.columns-3 .wpvq-question.wpvq-square .wpvq-answer {
+		width: 31%;
+		margin: 1%;
+	}
+	.columns-4 .wpvq-question.wpvq-square .wpvq-answer {
+		width: 23%;
+		margin: 1%;
+	}
+
+	.wpvq.columns-2 .wpvq-question.wpvq-square .wpvq-answer,
+	.wpvq.columns-3 .wpvq-question.wpvq-square .wpvq-answer {
+		min-height: 283px;
+	}
+}
+
+
+/**
+ * -- CHECKBOX --
+ */
+
+/* Hidden checkbox */
+input.vq-css-checkbox {
+	position: absolute;
+    z-index: -1000;
+    left: -1000px;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    width: 1px;
+    margin: -1px;
+    padding: 0;
+    border: 0;
+}
+
+input.vq-css-checkbox + label.vq-css-label {
+    padding-left: 31px;
+    height: auto;
+    display: inline-block;
+    line-height: 19px;
+    background-repeat: no-repeat;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+/* Label when checked box */
+input.vq-css-checkbox:checked + label.vq-css-label {
+}
+
+/* Default label */
+label.vq-css-label {
+	font-size:18px;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/**
+ * -- TRUE/FALSE EXPLAINATION BLOCK --
+ */
+
+/* Right answer selected */
+div.wpvq-explaination div.wpvq-true {
+	font-weight: bold;
+	display: none;
+	font-size:1.2em;
+}
+
+/* Wrong answer selected */
+div.wpvq-explaination div.wpvq-false {
+	font-weight: bold;
+	display: none;
+	font-size:1.2em;
+}
+
+/* Block with explaination */
+div.wpvq-explaination {
+	padding:10px 0 0 20px;
+	display: none;
+}
+
+/* Explaination content */
+div.wpvq-explaination p.wpvq-explaination-content {
+}
+
+/**
+ * Results blocs
+ */
+
+/* Bloc above results */
+.wpvq-bloc-addBySettings-top {
+	display: none;
+}
+
+.wpvq-play-again-area {
+	display: none;	
+	text-align: center;
+	margin-bottom:20px;
+}
+
+.wpvq-play-again-area button {
+	background-color: #333;
+	border: 0;
+	color: #fff;
+	cursor: pointer;
+	font-size: 20px;
+	font-weight: 700;
+	padding: 10px;
+}
+
+.wpvq-start-quiz {
+	background-color: black;
+	width:auto;
+	border: 0;
+	color: #fff;
+	cursor: pointer;
+	font-size: 20px;
+	font-weight: 700;
+	padding: 10px 15px;
+}
+
+/**
+ * -- FINAL BLOCK SCORE/PERSONALITY --
+ */
+
+p.wp-share-results {
+	margin-bottom:0px;
+}
+
+/* Force to share before results */
+div#wpvq-forceToShare-before-results {
+	display: none;
+	padding:20px;
+	margin-top:30px;
+	margin-bottom:20px;	
+}
+
+/* Label "share to show" */
+div#wpvq-forceToShare-before-results p.wpvq-forceToShare-please {
+	margin-bottom:5px;
+}
+
+/* Center Share Button */
+div#wpvq-forceToShare-before-results .wpvq-social-button {
+	float:none;
+	margin:0 auto;
+}
+
+/* Shake on hover */
+@-webkit-keyframes thumb {
+	0% { -webkit-transform: scale(1); }
+	50% { -webkit-transform: scale(0.9); }
+	100% { -webkit-transform: scale(1); }
+}
+
+.wpvq-social-button:hover
+{
+	-webkit-animation-name: thumb;
+	-webkit-animation-duration: 200ms;
+	-webkit-transform-origin:50% 50%;
+	-webkit-animation-iteration-count: 2;
+	-webkit-animation-timing-function: linear;
+}
+
+/* Ask informations form */
+div#wpvq-ask-before-results {
+	display: none;
+	padding:20px;
+	margin-top:30px;
+	margin-bottom:20px;
+}
+
+div#wpvq-ask-before-results label {
+	
+}
+
+/* Divs with final score (you got X of Y !) & final personality result (you are ____) */
+div#wpvq-final-score, div#wpvq-final-personality {
+	display: none;
+	padding:10px 0 10px 20px;
+	margin-top:30px;
+	margin-bottom:20px;
+}
+
+/* Title in the final personality result block */
+div#wpvq-final-personality .wpvq-you-are {
+	margin-top:15px;
+	font-size:1.3em;
+}
+
+/* Content block on final personality result */
+div#wpvq-final-personality .wpvq-personality-content {
+
+}
+
+/* Personality name on the final block */
+div#wpvq-final-personality .wpvq-personality-label {
+	font-size:1.3em;
+	font-weight: bold;
+}
+
+/* Score headline, on the final score block */
+div#wpvq-final-score span.wpvq-headline {
+	font-weight: bold;
+	font-size:1.3em;
+}
+
+/* Quiz title on the result block */
+span.wpvq-quiz-title {
+	display: block;
+	font-size:.8em;
+}
+
+/**
+ * -- STUFF / TOOLS --
+ */
+
+/* Small and tiny copyright if you agree to promote our plugin */
+p.wpvq-small-copyright {
+	font-size:.7em;
+	color:#dedede;
+}
+
+.wpvq-clear {
+	clear: both;
+}
+
+.wpvq-clear-invisible {
+	clear: both;	
+	border:0;
+	margin:0;
+	padding:0;
+	height:0;
+}
+
+/**
+ * ADS bloc
+ */
+
+.wpvq-a-d-s
+{
+
+}
+
+.wpvq-top-a-d-s
+{
+	margin-bottom:25px;
+}
+
+.wpvq-bottom-a-d-s
+{
+	
+}
+
+/**
+ * -- SHARE BUTTONS --
+ */
+
+.wpvq-social-button {
+    background: #DCE0E0;
+    position: relative;
+    display: block;
+    float: left;
+    height: 40px;
+    margin: 0 7px;
+    overflow: hidden;
+    width: 150px;
+    border-radius: 3px;
+    -o-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+}
+
+.wpvq-social-icon {
+    display: block;
+    float: left;
+    position: relative;
+    z-index: 3;
+    height: 100%;
+    vertical-align: top;
+    width: 38px;
+    -moz-border-radius-topleft: 3px;
+    -moz-border-radius-topright: 0px;
+    -moz-border-radius-bottomright: 0px;
+    -moz-border-radius-bottomleft: 3px;
+    -webkit-border-radius: 3px 0px 0px 3px;
+    border-radius: 3px 0px 0px 3px;
+    text-align: center;
+}
+
+.wpvq-social-button:hover {
+	cursor: pointer;
+}
+
+.wpvq-social-icon i {
+    color: #fff;
+    line-height: 42px;
+}
+
+.wpvq-social-slide {
+    z-index: 2;
+    display: block;
+    margin: 0;
+    height: 100%;
+    left: 38px;
+    position: absolute;
+    width: 112px;
+    -moz-border-radius-topleft: 0px;
+    -moz-border-radius-topright: 3px;
+    -moz-border-radius-bottomright: 3px;
+    -moz-border-radius-bottomleft: 0px;
+    -webkit-border-radius: 0px 3px 3px 0px;
+    border-radius: 0px 3px 3px 0px;
+}
+
+.wpvq-social-slide p {
+	padding:0;
+    font-family: 'Open Sans';
+    font-weight: 400;
+    border-left: 1px solid #fff;
+    border-left: 1px solid rgba(255,255,255,0.35);
+    color: #fff;
+    font-size: 16px;
+    left: 0;
+    margin: 0;
+    position: absolute;
+    text-align: center;
+    top: 7px;
+    width: 100%;
+}
+
+.wpvq-social-button {
+	margin-top:10px;
+}
+
+.wpvq-social-button .wpvq-social-slide {
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+
+.wpvq-social-facebook .wpvq-social-icon, .wpvq-social-facebook .wpvq-social-slide {
+    background: #305c99;
+}
+
+.wpvq-social-twitter .wpvq-social-icon, .wpvq-social-twitter .wpvq-social-slide {
+    background: #00cdff;
+}
+
+.wpvq-social-google .wpvq-social-icon, .wpvq-social-google .wpvq-social-slide {
+    background: #d24228;
+}
+
+.wpvq-social-linkedin .wpvq-social-icon, .wpvq-social-linkedin .wpvq-social-slide {
+    background: #007bb6;
+}
+
+.wpvq-social-vk .wpvq-social-icon, .wpvq-social-vk .wpvq-social-slide {
+    background: #567ca4;
+}
+
+/* Ask informations form */
+
+#wpvq-form-informations p.wpvq-who-are-you {
+	text-align:center;
+}
+
+#wpvq-form-informations .wpvq-input-block {
+	margin-bottom:20px;
+	display: block;
+	text-align:center;
+}
+
+#wpvq-form-informations .wpvq-input-block label {
+	display: block;
+}
+
+#wpvq-form-informations input[type=text] {
+	background:white;
+	border-radius:3px;
+	text-shadow:none;
+	text-align:center;
+	height:42px;
+	width:400px;
+	margin:0 auto;
+	border:2px solid #e2e2e2;
+	font-size:16px;
+	margin-top:5px;
+}
+
+#wpvq-form-informations p.wpvq-submit-button-ask {
+	text-align: center;
+	margin-bottom:0;
+}
+
+#wpvq-form-informations p.wpvq-submit-button-ask button {
+	border-radius:3px;
+	background:#3498db;
+	color:white;
+	box-shadow:none;
+	border:none;
+	padding:10px 20px;
+	font-family: Arial, sans-serif;
+	font-size:16px;
+	text-shadow:none;
+	font-weight: bold;
+}
+
+#wpvq-form-informations p.wpvq-submit-button-ask button:hover {
+	-webkit-animation-name: thumb;
+	-webkit-animation-duration: 200ms;
+	-webkit-transform-origin:50% 50%;
+	-webkit-animation-iteration-count: 2;
+	-webkit-animation-timing-function: linear;
+	background:#2980b9;
+	box-shadow:none;
+	border:0px;
+}
+
+#wpvq-form-informations span.wpvq-ignore-askInfo {
+	font-size:12px;
+}
+
+#wpvq-form-informations span.wpvq-ignore-askInfo:hover {
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+
+/* Progress bars */
+
+div.wpvq-progress-zero { color:#999aaa; }
+
+div.wpvq-next-page button.wpvq-next-page-button {
+	color:white;
+	padding:12px;
+	border-radius:2px;
+	border:0px;
+	font-size:18px;
+	box-shadow:none;
+}
+
+div.wpvq-next-page button.wpvq-next-page-button:hover {
+	-webkit-animation-name: thumb;
+	-webkit-animation-duration: 200ms;
+	-webkit-transform-origin:50% 50%;
+	-webkit-animation-iteration-count: 2;
+	-webkit-animation-timing-function: linear;
+}
+
+div.wpvq_bar_container_top {
+	margin-bottom:30px;
+}
+
+div.wpvq_bar_container_bottom {
+	margin:30px 0;
+}
+
+.wpvq-page-progress .wpvq-progress-value {
+	width:0px;
+}
+
+.wpvq-progress {
+  background-color: #f9f9f9;
+  color: #fff;
+  box-shadow: inset 0 1px 1px rgba(100, 100, 100, 0.1);
+  box-sizing: initial;
+  color: #fff;
+  font-size: 11px;
+  height: 14px;
+  line-height: 1.285;
+  margin: 6px 0;
+  position: relative;
+  text-align: center;
+  width: 100%;
+}
+
+.wpvq-progress-small {
+  font-size: 9px;
+  font-size: 0.5625rem;
+  height: 6px;
+  line-height: 0.875;
+}
+
+.wpvq-progress-large {
+  font-size: 16px;
+  font-size: 1rem;
+  height: 25px;
+  line-height: 1.7;
+}
+
+.wpvq-progress > span {
+  background-color: #2bc253;
+  display: block;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+  width: auto;
+}
+
+/**
+ * Animated spinner (loading)
+ */
+
+.fa-spin-custom, .glyphicon-spin {
+  -webkit-animation: spin 1000ms infinite linear;
+  animation: spin 1000ms infinite linear;
+}
+@-webkit-keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg);
+  }
+}
+@keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg);
+  }
+}
+
+/**
+ * Results page
+ */
+

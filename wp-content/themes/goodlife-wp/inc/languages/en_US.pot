@@ -1,0 +1,1510 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: goodlife\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-03-08 21:09+0200\n"
+"PO-Revision-Date: 2016-03-08 21:09+0200\n"
+"Last-Translator: Ant Ekşiler <anteksiler@gmail.com>\n"
+"Language-Team: Fuel Themes <support@fuelthemes.net>\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _e;__;esc_html__;_n_noop\n"
+"X-Poedit-Basepath: ../../\n"
+"X-Generator: Poedit 1.7.1\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: admin\n"
+"X-Poedit-SearchPathExcluded-1: assets\n"
+"X-Poedit-SearchPathExcluded-2: node_modules\n"
+
+#: 404.php:7
+#, fuzzy
+msgid "Error 404"
+msgstr "﻿Error 404"
+
+#: 404.php:8
+msgid "404: Not Found"
+msgstr ""
+
+#: 404.php:9
+msgid ""
+"We are sorry, but the page you are looking for cannot be found. <br>You "
+"might try searching our site."
+msgstr ""
+
+#: archive.php:8 author.php:11 category.php:41 index.php:8 search.php:11
+#: vc_templates/thb_postgrid.php:130
+msgid "&larr;"
+msgstr ""
+
+#: archive.php:9 author.php:12 category.php:42 index.php:9 search.php:12
+#: vc_templates/thb_postgrid.php:131
+msgid "&rarr;"
+msgstr ""
+
+#: comments.php:19
+msgid "Comments <span>(0)</span>"
+msgstr ""
+
+#: comments.php:19
+msgid "Comments <span>(1)</span>"
+msgstr ""
+
+#: comments.php:19
+msgid "Comments <span>(%)</span>"
+msgstr ""
+
+#: comments.php:35
+msgid "Comments are closed"
+msgstr ""
+
+#: comments.php:49
+msgid "Name <span>*</span>"
+msgstr ""
+
+#: comments.php:51
+msgid "Email <span>*</span>"
+msgstr ""
+
+#: comments.php:53
+msgid "Website"
+msgstr ""
+
+#: comments.php:55
+msgid "Your Comment"
+msgstr ""
+
+#: comments.php:59
+#, php-format
+msgid ""
+"Logged in as <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"Log out of "
+"this account\">Log out?</a>"
+msgstr ""
+
+#: comments.php:61
+msgid "Your email address will not be published. Required fields are marked *"
+msgstr ""
+
+#: comments.php:66
+msgid "Leave a Reply"
+msgstr ""
+
+#: comments.php:67
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr ""
+
+#: comments.php:68
+msgid "Cancel reply"
+msgstr ""
+
+#: comments.php:69
+msgid "Submit Comment"
+msgstr ""
+
+#: inc/ajax.php:113
+#, php-format
+msgid "%s failed to embed."
+msgstr ""
+
+#: inc/ajax.php:137
+msgid "This preview is unavailable in the editor."
+msgstr ""
+
+#: inc/category-settings.php:20
+msgid "GoodLife Settings"
+msgstr ""
+
+#: inc/category-settings.php:23
+msgid "Header"
+msgstr ""
+
+#: inc/category-settings.php:28
+msgid "Upload/Add image"
+msgstr ""
+
+#: inc/category-settings.php:29
+msgid "Remove image"
+msgstr ""
+
+#: inc/category-settings.php:31
+msgid "Works in Style 1 category header"
+msgstr ""
+
+#: inc/category-settings.php:52
+msgid "Choose an image"
+msgstr ""
+
+#: inc/category-settings.php:54
+msgid "Use image"
+msgstr ""
+
+#: inc/category-settings.php:86
+msgid "Listing Style"
+msgstr ""
+
+#: inc/category-settings.php:91
+msgid "Overrides Theme Options"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:333 inc/plugins.php:23
+msgid "Install Required Plugins"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:334 inc/plugins.php:24
+msgid "Install Plugins"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:335 inc/plugins.php:25
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:336 inc/plugins.php:26
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:338 inc/plugins.php:27
+#, php-format
+msgid "This theme requires the following plugin: %1$s."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:343 inc/plugins.php:28
+#, php-format
+msgid "This theme recommends the following plugin: %1$s."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:348
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to install the %1$s "
+"plugin."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:353 inc/plugins.php:33
+#, php-format
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:358
+#, php-format
+msgid "There is an update available for: %1$s."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:363
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to update the %1$s plugin."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:368 inc/plugins.php:30
+#, php-format
+msgid "The following required plugin is currently inactive: %1$s."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:373 inc/plugins.php:31
+#, php-format
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:378
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to activate the %1$s "
+"plugin."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:383 inc/plugins.php:35
+msgid "Begin installing plugin"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:388
+msgid "Begin updating plugin"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:393
+msgid "Begin activating plugin"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:397 inc/plugins.php:37
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:398
+msgid "Return to the dashboard"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:399
+#: inc/class-tgm-plugin-activation.php:3034 inc/plugins.php:38
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:400
+msgid "The following plugin was activated successfully:"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:401
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:402
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:403
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:404
+msgid "Dismiss this notice"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:405
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:525
+msgid "Update Required"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:639
+msgid "Set the parent_slug config variable instead."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:833
+#: inc/class-tgm-plugin-activation.php:3443
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:940
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:940
+#: inc/class-tgm-plugin-activation.php:943
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:943
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2172
+msgid "Required"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2175
+msgid "Recommended"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2191
+msgid "WordPress Repository"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2194
+msgid "External Source"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2197
+msgid "Pre-Packaged"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2214
+msgid "Not Installed"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2218
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2220
+msgid "Active"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2226
+msgid "Required Update not Available"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2229
+msgid "Requires Update"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2232
+msgid "Update recommended"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2384
+msgid "Installed version:"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2392
+msgid "Minimum required version:"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2404
+msgid "Available version:"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2427
+#, php-format
+msgid ""
+"No plugins to install, update or activate. <a href=\"%1$s\">Return to the "
+"Dashboard</a>"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2441
+msgid "Plugin"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2442
+msgid "Source"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2443
+msgid "Type"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2447
+msgid "Version"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2448
+msgid "Status"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2575
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2608
+msgid "Install"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2614
+msgid "Update"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2617
+msgid "Activate"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2648
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2650
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2686
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2688
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2793
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2819
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3033
+msgid "Plugin activation failed."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3367
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3369
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3370
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3374
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3375
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3375
+#: inc/class-tgm-plugin-activation.php:3381
+msgid "Show Details"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3375
+#: inc/class-tgm-plugin-activation.php:3381
+msgid "Hide Details"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3376
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3377
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3380
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3381
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3382
+msgid "All installations have been completed."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3383
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: inc/loop/notfound-list.php:1 inc/loop/notfound.php:1
+msgid "No articles found matching your query"
+msgstr ""
+
+#: inc/misc.php:679
+msgid "views"
+msgstr ""
+
+#: inc/misc.php:724
+msgid "More"
+msgstr ""
+
+#: inc/misc.php:866
+msgid "Articles"
+msgstr ""
+
+#: inc/misc.php:866
+msgid "Comments"
+msgstr ""
+
+#: inc/misc.php:890
+msgid "Follow Us"
+msgstr ""
+
+#: inc/misc.php:893
+msgid "Facebook"
+msgstr ""
+
+#: inc/misc.php:896
+msgid "Pinterest"
+msgstr ""
+
+#: inc/misc.php:899
+msgid "Twitter"
+msgstr ""
+
+#: inc/misc.php:902
+msgid "Linkedin"
+msgstr ""
+
+#: inc/misc.php:905 inc/visualcomposer-extend.php:306
+msgid "Instagram"
+msgstr ""
+
+#: inc/misc.php:908
+msgid "Xing"
+msgstr ""
+
+#: inc/misc.php:911
+msgid "Tumblr"
+msgstr ""
+
+#: inc/misc.php:914
+msgid "VKontakte"
+msgstr ""
+
+#: inc/misc.php:917
+msgid "Google Plus"
+msgstr ""
+
+#: inc/misc.php:920
+msgid "Soundcloud"
+msgstr ""
+
+#: inc/misc.php:923
+msgid "Dribbble"
+msgstr ""
+
+#: inc/misc.php:926
+msgid "Youtube"
+msgstr ""
+
+#: inc/misc.php:929
+msgid "Spotify"
+msgstr ""
+
+#: inc/misc.php:932
+msgid "Behance"
+msgstr ""
+
+#: inc/misc.php:935
+msgid "Deviantart"
+msgstr ""
+
+#: inc/misc.php:938
+msgid "RSS"
+msgstr ""
+
+#: inc/misc.php:1048
+msgid "Previous Article"
+msgstr ""
+
+#: inc/misc.php:1050
+msgid "No Older Articles"
+msgstr ""
+
+#: inc/misc.php:1062
+msgid "Next Article"
+msgstr ""
+
+#: inc/misc.php:1064
+msgid "No Newer Articles"
+msgstr ""
+
+#: inc/misc.php:1084
+#, php-format
+msgid "%s ago"
+msgstr ""
+
+#: inc/misc.php:1161
+msgid "Term meta cannot be added to terms that are shared between taxonomies."
+msgstr ""
+
+#: inc/ot-radioimages.php:10
+msgid "Left Sidebar"
+msgstr ""
+
+#: inc/ot-radioimages.php:15
+msgid "Right Sidebar"
+msgstr ""
+
+#: inc/ot-radioimages.php:24
+msgid "Four Columns"
+msgstr ""
+
+#: inc/ot-radioimages.php:29
+msgid "Three Columns"
+msgstr ""
+
+#: inc/ot-radioimages.php:34
+msgid "Two Columns"
+msgstr ""
+
+#: inc/ot-radioimages.php:39
+msgid "Double Left Columns"
+msgstr ""
+
+#: inc/ot-radioimages.php:44
+msgid "Double Right Columns"
+msgstr ""
+
+#: inc/ot-radioimages.php:49
+msgid "Five Columns"
+msgstr ""
+
+#: inc/ot-radioimages.php:54
+msgid "Single Column"
+msgstr ""
+
+#: inc/ot-radioimages.php:64
+msgid "Classic with Sidebar"
+msgstr ""
+
+#: inc/ot-radioimages.php:69
+msgid "Full Cover"
+msgstr ""
+
+#: inc/ot-radioimages.php:74
+msgid "Standard Cover"
+msgstr ""
+
+#: inc/ot-radioimages.php:79
+msgid "Full Small Cover"
+msgstr ""
+
+#: inc/ot-radioimages.php:84
+msgid "Center"
+msgstr ""
+
+#: inc/ot-radioimages.php:94
+msgid "Horizontal Image with Sidebar"
+msgstr ""
+
+#: inc/ot-radioimages.php:99
+msgid "Vertical Image with Sidebar"
+msgstr ""
+
+#: inc/ot-radioimages.php:104
+msgid "Horizontal Image without Sidebar"
+msgstr ""
+
+#: inc/ot-radioimages.php:109
+msgid "Vertical Image without Sidebar"
+msgstr ""
+
+#: inc/ot-radioimages.php:120
+msgid "Large Video Player"
+msgstr ""
+
+#: inc/ot-radioimages.php:125
+msgid "Small Video Play"
+msgstr ""
+
+#: inc/ot-radioimages.php:135
+msgid "GoodLife"
+msgstr ""
+
+#: inc/ot-radioimages.php:140
+msgid "GoodMusic"
+msgstr ""
+
+#: inc/ot-radioimages.php:145
+msgid "GoodGame"
+msgstr ""
+
+#: inc/ot-radioimages.php:150
+msgid "GoodSport"
+msgstr ""
+
+#: inc/ot-radioimages.php:155
+msgid "GoodLook"
+msgstr ""
+
+#: inc/ot-radioimages.php:160
+msgid "GoodTech"
+msgstr ""
+
+#: inc/ot-radioimages.php:165
+msgid "GoodBlog"
+msgstr ""
+
+#: inc/ot-radioimages.php:177
+msgid "<a href=\"http://fuelthemes.net\">Fuel Themes</a>"
+msgstr ""
+
+#: inc/ot-radioimages.php:183
+msgid "Send to Theme Options"
+msgstr ""
+
+#: inc/ot-themeoptions.php:1330
+msgid "Auto Select a Category"
+msgstr ""
+
+#: inc/ot-themeoptions.php:1338
+msgid "No Categories Found"
+msgstr ""
+
+#: inc/ot-themeoptions.php:1508
+msgid "Choose Sidebar"
+msgstr ""
+
+#: inc/ot-themeoptions.php:1513
+msgid "No Sidebars"
+msgstr ""
+
+#: inc/plugins.php:29
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to install the %s plugin. "
+"Contact the administrator of this site for help on getting the plugin "
+"installed."
+msgstr ""
+
+#: inc/plugins.php:32
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to activate the %s "
+"plugin. Contact the administrator of this site for help on getting the "
+"plugin activated."
+msgstr ""
+
+#: inc/plugins.php:34
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to update the %s plugin. "
+"Contact the administrator of this site for help on getting the plugin "
+"updated."
+msgstr ""
+
+#: inc/plugins.php:36
+msgid "Activate installed plugin"
+msgstr ""
+
+#: inc/plugins.php:39
+#, php-format
+msgid "All plugins installed and activated successfully. %s"
+msgstr ""
+
+#: inc/post-detail-styles/gallery-style1.php:54
+#: inc/post-detail-styles/gallery-style2.php:64
+#: inc/post-detail-styles/gallery-style3.php:55
+#: inc/post-detail-styles/gallery-style4.php:65
+msgid "photo "
+msgstr ""
+
+#: inc/post-detail-styles/gallery-style1.php:54
+#: inc/post-detail-styles/gallery-style2.php:64
+#: inc/post-detail-styles/gallery-style3.php:55
+#: inc/post-detail-styles/gallery-style4.php:65
+msgid " of "
+msgstr ""
+
+#: inc/post-reviews.php:78
+msgid "The Good"
+msgstr ""
+
+#: inc/post-reviews.php:86
+msgid "The Bad"
+msgstr ""
+
+#: inc/post-social.php:337
+msgid "Shares"
+msgstr ""
+
+#: inc/post-social.php:370
+msgid "Share This"
+msgstr ""
+
+#: inc/postformats/post-end.php:8
+msgid "Tags"
+msgstr ""
+
+#: inc/postformats/post-latest.php:18
+msgid "Latest News"
+msgstr ""
+
+#: inc/posts-social-shares-count/posts-share-count.php:17
+#: inc/posts-social-shares-count/posts-share-count.php:23
+msgid "Cheatin&#8217; huh?"
+msgstr ""
+
+#: inc/posts-social-shares-count/posts-share-count.php:68
+msgid "Total Shares"
+msgstr ""
+
+#: inc/sidebar.php:3
+msgid "Blog Sidebar"
+msgstr ""
+
+#: inc/sidebar.php:3
+msgid "The sidebar visible in the blog page"
+msgstr ""
+
+#: inc/sidebar.php:5
+msgid "Article Sidebar"
+msgstr ""
+
+#: inc/sidebar.php:5
+msgid "The sidebar visible in the article page"
+msgstr ""
+
+#: inc/sidebar.php:7
+msgid "Category Sidebar"
+msgstr ""
+
+#: inc/sidebar.php:7
+msgid "The sidebar visible in the category pages"
+msgstr ""
+
+#: inc/sidebar.php:9
+msgid "Author Sidebar"
+msgstr ""
+
+#: inc/sidebar.php:9
+msgid "The sidebar visible in the author pages"
+msgstr ""
+
+#: inc/sidebar.php:11
+msgid "Footer Column 1"
+msgstr ""
+
+#: inc/sidebar.php:11
+msgid "Footer - first column"
+msgstr ""
+
+#: inc/sidebar.php:13
+msgid "Footer Column 2"
+msgstr ""
+
+#: inc/sidebar.php:13
+msgid "Footer - second column"
+msgstr ""
+
+#: inc/sidebar.php:15
+msgid "Footer Column 3"
+msgstr ""
+
+#: inc/sidebar.php:15
+msgid "Footer - third column"
+msgstr ""
+
+#: inc/sidebar.php:17
+msgid "Footer Column 4"
+msgstr ""
+
+#: inc/sidebar.php:17
+msgid "Footer - forth column"
+msgstr ""
+
+#: inc/sidebar.php:19
+msgid "Footer Column 5"
+msgstr ""
+
+#: inc/sidebar.php:19
+msgid "Footer - fifth column"
+msgstr ""
+
+#: inc/sidebar.php:21
+msgid "Footer Column 6"
+msgstr ""
+
+#: inc/sidebar.php:21
+msgid "Footer - sixth column"
+msgstr ""
+
+#: inc/visualcomposer-extend.php:152
+msgid "Button"
+msgstr ""
+
+#: inc/visualcomposer-extend.php:167 inc/visualcomposer-extend.php:1055
+msgid "Icon"
+msgstr ""
+
+#: inc/visualcomposer-extend.php:174 inc/visualcomposer-extend.php:1062
+msgid "Select icon from library."
+msgstr ""
+
+#: inc/visualcomposer-extend.php:223
+msgid "Gap"
+msgstr ""
+
+#: inc/visualcomposer-extend.php:354
+msgid "Posts Carousel"
+msgstr ""
+
+#: inc/visualcomposer-extend.php:504
+msgid "Posts Category"
+msgstr ""
+
+#: inc/visualcomposer-extend.php:571
+msgid "Posts Grid"
+msgstr ""
+
+#: inc/visualcomposer-extend.php:698
+msgid "Posts Grid Carousel"
+msgstr ""
+
+#: inc/visualcomposer-extend.php:830
+msgid "Posts Slider"
+msgstr ""
+
+#: inc/visualcomposer-extend.php:971
+msgid "Posts Trending Bar"
+msgstr ""
+
+#: inc/visualcomposer-extend.php:1036
+msgid "Title"
+msgstr ""
+
+#: inc/visualcomposer-extend.php:1079
+msgid "Video Playlist"
+msgstr ""
+
+#: inc/widgets/category-posts.php:7
+msgid "Display category posts in a list"
+msgstr ""
+
+#: inc/widgets/category-posts.php:12
+msgid "Fuel Themes - Category Posts"
+msgstr ""
+
+#: inc/widgets/category-slider.php:7
+msgid "Display category posts in a slider"
+msgstr ""
+
+#: inc/widgets/category-slider.php:12
+msgid "Fuel Themes - Category Slider"
+msgstr ""
+
+#: inc/widgets/discussed-posts-images.php:7
+msgid "Display most discussed posts with images"
+msgstr ""
+
+#: inc/widgets/discussed-posts-images.php:12
+msgid "Fuel Themes - Most Discussed Posts"
+msgstr ""
+
+#: inc/widgets/discussed-posts-images.php:50
+#: inc/widgets/viewed-posts-images.php:36
+msgid "WEEK"
+msgstr ""
+
+#: inc/widgets/discussed-posts-images.php:51
+#: inc/widgets/viewed-posts-images.php:37
+msgid "MONTH"
+msgstr ""
+
+#: inc/widgets/discussed-posts-images.php:52
+#: inc/widgets/viewed-posts-images.php:38
+msgid "ALL"
+msgstr ""
+
+#: inc/widgets/featured-video.php:7
+msgid "Display an embeded video on your sidebar"
+msgstr ""
+
+#: inc/widgets/featured-video.php:12
+msgid "Fuel Themes - Featured Video"
+msgstr ""
+
+#: inc/widgets/latest-posts-images.php:7
+msgid "Display latest posts with images"
+msgstr ""
+
+#: inc/widgets/latest-posts-images.php:12
+msgid "Fuel Themes - Latest Posts"
+msgstr ""
+
+#: inc/widgets/multiple_ad_125.php:7
+msgid "Display 125x125 ads"
+msgstr ""
+
+#: inc/widgets/multiple_ad_125.php:12
+msgid "Fuel Themes - 125x125 Ads"
+msgstr ""
+
+#: inc/widgets/post-slider.php:7
+msgid "Display posts in a slider by Post ID"
+msgstr ""
+
+#: inc/widgets/post-slider.php:12
+msgid "Fuel Themes - Post Slider"
+msgstr ""
+
+#: inc/widgets/shared-posts-images.php:7
+msgid "Display most shared posts with images"
+msgstr ""
+
+#: inc/widgets/shared-posts-images.php:12
+msgid "Fuel Themes - Most Shared Posts"
+msgstr ""
+
+#: inc/widgets/single_ad.php:7
+msgid "Display a single advertisement"
+msgstr ""
+
+#: inc/widgets/single_ad.php:12
+msgid "Fuel Themes - Single Ad"
+msgstr ""
+
+#: inc/widgets/social-counters.php:8
+msgid "Display a Social Counter"
+msgstr ""
+
+#: inc/widgets/social-counters.php:13
+msgid "Fuel Themes - Social Counter"
+msgstr ""
+
+#: inc/widgets/social-counters.php:38
+msgid "Likes"
+msgstr ""
+
+#: inc/widgets/social-counters.php:38 inc/widgets/social-counters.php:47
+msgid "LIKE"
+msgstr ""
+
+#: inc/widgets/social-counters.php:41 inc/widgets/social-counters.php:44
+#: inc/widgets/social-counters.php:54
+msgid "Followers"
+msgstr ""
+
+#: inc/widgets/social-counters.php:41 inc/widgets/social-counters.php:44
+msgid "FOLLOW"
+msgstr ""
+
+#: inc/widgets/social-counters.php:47
+msgid "Fans"
+msgstr ""
+
+#: inc/widgets/social-counters.php:51
+msgid "Subscribers"
+msgstr ""
+
+#: inc/widgets/social-counters.php:51
+msgid "SUBSCRIBE"
+msgstr ""
+
+#: inc/widgets/social-counters.php:54
+msgid "Follow"
+msgstr ""
+
+#: inc/widgets/social-counters.php:104
+msgid "Display Twitter Counter?"
+msgstr ""
+
+#: inc/widgets/social-counters.php:105
+msgid ""
+"Please make sure you fill out the settings inside Theme Options -> Twitter "
+"Oauth for Twitter Counts"
+msgstr ""
+
+#: inc/widgets/social-counters.php:109
+msgid "Display Facebook Counter?"
+msgstr ""
+
+#: inc/widgets/social-counters.php:110
+msgid ""
+"Please make sure you fill out the settings inside Theme Options -> Facebook "
+"Oauth for Facebook Counts"
+msgstr ""
+
+#: inc/widgets/social-counters.php:114
+msgid "Display Instagram Counter?"
+msgstr ""
+
+#: inc/widgets/social-counters.php:115
+msgid ""
+"Please make sure you fill out the settings inside Theme Options -> Instagram "
+"Oauth for Instagram Counts"
+msgstr ""
+
+#: inc/widgets/social-counters.php:119
+msgid "Display Google+ Counter?"
+msgstr ""
+
+#: inc/widgets/social-counters.php:120
+msgid ""
+"Please make sure you fill out the settings inside Theme Options -> Google+ "
+"Oauth for Google Counts"
+msgstr ""
+
+#: inc/widgets/social-counters.php:124
+msgid "Display Youtube Counter?"
+msgstr ""
+
+#: inc/widgets/social-counters.php:125
+msgid ""
+"Please make sure you fill out the settings inside Theme Options -> Youtube "
+"Oauth for Youtube Counts"
+msgstr ""
+
+#: inc/widgets/social-counters.php:129
+msgid "Display Vimeo Counter?"
+msgstr ""
+
+#: inc/widgets/social-counters.php:130
+msgid ""
+"Please make sure you fill out the settings inside Theme Options -> Vimeo for "
+"Vimeo Counts"
+msgstr ""
+
+#: inc/widgets/social-counters.php:134
+msgid "Debug Mode"
+msgstr ""
+
+#: inc/widgets/social-counters.php:135
+msgid "Enable this to see what is returned from social network sites."
+msgstr ""
+
+#: inc/widgets/top-reviews.php:7
+msgid "Display top review posts"
+msgstr ""
+
+#: inc/widgets/top-reviews.php:12
+msgid "Fuel Themes - Top Reviews"
+msgstr ""
+
+#: inc/widgets/viewed-posts-images.php:7
+msgid "Display most viewed posts with images"
+msgstr ""
+
+#: inc/widgets/viewed-posts-images.php:12
+msgid "Fuel Themes - Most Viewed Posts with Images"
+msgstr ""
+
+#: inc/widgets/viewed-posts-images.php:53
+msgid "No Stats to show"
+msgstr ""
+
+#: inc/wordpress-importer/parsers.php:42 inc/wordpress-importer/parsers.php:72
+#: inc/wordpress-importer/parsers.php:80
+msgid "There was an error when reading this WXR file"
+msgstr ""
+
+#: inc/wordpress-importer/parsers.php:43
+msgid ""
+"Details are shown above. The importer will now try again with a different "
+"parser..."
+msgstr ""
+
+#: inc/wordpress-importer/parsers.php:84 inc/wordpress-importer/parsers.php:89
+#: inc/wordpress-importer/parsers.php:279
+#: inc/wordpress-importer/parsers.php:469
+msgid ""
+"This does not appear to be a WXR file, missing/invalid WXR version number"
+msgstr ""
+
+#: inc/wordpress-importer/wordpress-importer.php:131
+#: inc/wordpress-importer/wordpress-importer.php:140
+#: inc/wordpress-importer/wordpress-importer.php:192
+#: inc/wordpress-importer/wordpress-importer.php:196
+#: inc/wordpress-importer/wordpress-importer.php:205
+msgid "Sorry, there has been an error."
+msgstr ""
+
+#: inc/wordpress-importer/wordpress-importer.php:132
+msgid "The file does not exist, please try again."
+msgstr ""
+
+#: inc/wordpress-importer/wordpress-importer.php:176
+msgid "All done."
+msgstr ""
+
+#: inc/wordpress-importer/wordpress-importer.php:176
+msgid "Have fun!"
+msgstr ""
+
+#: inc/wordpress-importer/wordpress-importer.php:197
+#, php-format
+msgid ""
+"The export file could not be found at <code>%s</code>. It is likely that "
+"this was caused by a permissions problem."
+msgstr ""
+
+#: inc/wordpress-importer/wordpress-importer.php:213
+#, php-format
+msgid ""
+"This WXR file (version %s) may not be supported by this version of the "
+"importer. Please consider updating."
+msgstr ""
+
+#: inc/wordpress-importer/wordpress-importer.php:238
+#, php-format
+msgid ""
+"Failed to import author %s. Their posts will be attributed to the current "
+"user."
+msgstr ""
+
+#: inc/wordpress-importer/wordpress-importer.php:264
+msgid "Assign Authors"
+msgstr ""
+
+#: inc/wordpress-importer/wordpress-importer.php:265
+msgid ""
+"To make it easier for you to edit and save the imported content, you may "
+"want to reassign the author of the imported item to an existing user of this "
+"site. For example, you may want to import all the entries as <code>admin</"
+"code>s entries."
+msgstr ""
+
+#: inc/wordpress-importer/wordpress-importer.php:267
+#, php-format
+msgid ""
+"If a new user is created by WordPress, a new password will be randomly "
+"generated and the new user&#8217;s role will be set as %s. Manually changing "
+"the new user&#8217;s details will be necessary."
+msgstr ""
+
+#: inc/wordpress-importer/wordpress-importer.php:277
+msgid "Import Attachments"
+msgstr ""
+
+#: inc/wordpress-importer/wordpress-importer.php:280
+msgid "Download and import file attachments"
+msgstr ""
+
+#: inc/wordpress-importer/wordpress-importer.php:297
+msgid "Import author:"
+msgstr ""
+
+#: inc/wordpress-importer/wordpress-importer.php:308
+msgid "or create new user with login name:"
+msgstr ""
+
+#: inc/wordpress-importer/wordpress-importer.php:311
+msgid "as a new user:"
+msgstr ""
+
+#: inc/wordpress-importer/wordpress-importer.php:319
+msgid "assign posts to an existing user:"
+msgstr ""
+
+#: inc/wordpress-importer/wordpress-importer.php:321
+msgid "or assign posts to an existing user:"
+msgstr ""
+
+#: inc/wordpress-importer/wordpress-importer.php:322
+msgid "- Select -"
+msgstr ""
+
+#: inc/wordpress-importer/wordpress-importer.php:372
+#, php-format
+msgid ""
+"Failed to create new user for %s. Their posts will be attributed to the "
+"current user."
+msgstr ""
+
+#: inc/wordpress-importer/wordpress-importer.php:423
+#, php-format
+msgid "Failed to import category %s"
+msgstr ""
+
+#: inc/wordpress-importer/wordpress-importer.php:463
+#, php-format
+msgid "Failed to import post tag %s"
+msgstr ""
+
+#: inc/wordpress-importer/wordpress-importer.php:509
+#: inc/wordpress-importer/wordpress-importer.php:650
+#, php-format
+msgid "Failed to import %s %s"
+msgstr ""
+
+#: inc/wordpress-importer/wordpress-importer.php:535
+#, php-format
+msgid "Failed to import &#8220;%s&#8221;: Invalid post type %s"
+msgstr ""
+
+#: inc/wordpress-importer/wordpress-importer.php:616
+#, php-format
+msgid "Failed to import %s &#8220;%s&#8221;"
+msgstr ""
+
+#: inc/wordpress-importer/wordpress-importer.php:781
+msgid "Menu item skipped due to missing menu slug"
+msgstr ""
+
+#: inc/wordpress-importer/wordpress-importer.php:788
+#, php-format
+msgid "Menu item skipped due to invalid menu slug: %s"
+msgstr ""
+
+#: inc/wordpress-importer/wordpress-importer.php:851
+msgid "Fetching attachments is not enabled"
+msgstr ""
+
+#: inc/wordpress-importer/wordpress-importer.php:864
+msgid "Invalid file type"
+msgstr ""
+
+#: inc/wordpress-importer/wordpress-importer.php:908
+msgid "Remote server did not respond"
+msgstr ""
+
+#: inc/wordpress-importer/wordpress-importer.php:914
+#, php-format
+msgid "Remote server returned error response %1$d %2$s"
+msgstr ""
+
+#: inc/wordpress-importer/wordpress-importer.php:921
+msgid "Remote file is incorrect size"
+msgstr ""
+
+#: inc/wordpress-importer/wordpress-importer.php:926
+msgid "Zero size file downloaded"
+msgstr ""
+
+#: inc/wordpress-importer/wordpress-importer.php:932
+#, php-format
+msgid "Remote file is too large, limit is %s"
+msgstr ""
+
+#: inc/wordpress-importer/wordpress-importer.php:1030
+msgid "Import WordPress"
+msgstr ""
+
+#: inc/wordpress-importer/wordpress-importer.php:1037
+#, php-format
+msgid ""
+"A new version of this importer is available. Please update to version %s to "
+"ensure compatibility with newer export files."
+msgstr ""
+
+#: inc/wordpress-importer/wordpress-importer.php:1052
+msgid ""
+"Howdy! Upload your WordPress eXtended RSS (WXR) file and we&#8217;ll import "
+"the posts, pages, comments, custom fields, categories, and tags into this "
+"site."
+msgstr ""
+
+#: inc/wordpress-importer/wordpress-importer.php:1053
+msgid "Choose a WXR (.xml) file to upload, then click Upload file and import."
+msgstr ""
+
+#: inc/wordpress-importer/wordpress-importer.php:1127
+msgid ""
+"Import <strong>posts, pages, comments, custom fields, categories, and tags</"
+"strong> from a WordPress export file."
+msgstr ""
+
+#: inc/wp3menu.php:7
+msgid "Navigation Menu"
+msgstr ""
+
+#: inc/wp3menu.php:8
+msgid "Footer Menu"
+msgstr ""
+
+#: inc/wp3menu.php:9
+msgid "Sub Header Menu"
+msgstr ""
+
+#: inc/wp3menu.php:10
+msgid "Mobile Menu"
+msgstr ""
+
+#: inc/wp3menu.php:588
+#, php-format
+msgid "%s (Invalid)"
+msgstr ""
+
+#: inc/wp3menu.php:592
+#, php-format
+msgid "%s (Pending)"
+msgstr ""
+
+#: inc/wp3menu.php:633
+msgid "Edit Menu Item"
+msgstr ""
+
+#: inc/wp3menu.php:642
+msgid "URL"
+msgstr ""
+
+#: inc/wp3menu.php:649
+msgid "Navigation Label"
+msgstr ""
+
+#: inc/wp3menu.php:655
+msgid "Title Attribute"
+msgstr ""
+
+#: inc/wp3menu.php:662
+msgid "Open link in a new window/tab"
+msgstr ""
+
+#: inc/wp3menu.php:667
+msgid "CSS Classes (optional)"
+msgstr ""
+
+#: inc/wp3menu.php:673
+msgid "Link Relationship (XFN)"
+msgstr ""
+
+#: inc/wp3menu.php:679
+msgid "Description"
+msgstr ""
+
+#: inc/wp3menu.php:681
+msgid ""
+"The description will be displayed in the menu if the current theme supports "
+"it."
+msgstr ""
+
+#: inc/wp3menu.php:688
+msgid "Fuel Themes Menu Options"
+msgstr ""
+
+#: inc/wp3menu.php:690
+msgid "Menu Item Icon"
+msgstr ""
+
+#: inc/wp3menu.php:701
+msgid "Mega Menu"
+msgstr ""
+
+#: inc/wp3menu.php:710
+msgid "Enable"
+msgstr ""
+
+#: inc/wp3menu.php:719
+#, php-format
+msgid "Original: %s"
+msgstr ""
+
+#: inc/wp3menu.php:732
+msgid "Remove"
+msgstr ""
+
+#: inc/wp3menu.php:733
+msgid "Cancel"
+msgstr ""
+
+#: inc/wpml.php:29
+msgid "Add Languages"
+msgstr ""
+
+#: search.php:5
+msgid "Search Results For"
+msgstr ""
+
+#: searchform.php:4
+msgid "Search"
+msgstr ""
+
+#: vc_templates/thb_instagram.php:30
+msgid "Unable to communicate with Instagram."
+msgstr ""
+
+#: vc_templates/thb_instagram.php:33
+msgid "Instagram did not return a 200."
+msgstr ""
+
+#: vc_templates/thb_instagram.php:40
+msgid "Instagram has returned invalid data."
+msgstr ""
+
+#: vc_templates/thb_postgrid.php:142
+msgid "NO POSTS FOUND"
+msgstr ""
+
+#: vc_templates/thb_postgrid.php:142
+msgid "LOADING"
+msgstr ""
+
+#: vc_templates/thb_postgrid.php:142
+msgid "LOAD MORE NEWS"
+msgstr ""
+
+#: vc_templates/thb_posttrendingbar.php:80
+msgid "TRENDING NEWS"
+msgstr ""

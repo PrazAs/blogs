@@ -1,0 +1,1 @@
+<p><?php _e( 'No articles found matching your query', 'goodlife' ); ?></p>

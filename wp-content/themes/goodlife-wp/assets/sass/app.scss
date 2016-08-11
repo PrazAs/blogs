@@ -1,0 +1,237 @@
+@import "compass/css3";
+@import 'compass/css3/filter';
+@import "compass/css3/user-interface";
+
+$break-small: 48.063em;
+$break-medium: 64.063em;
+$break-large: 80em;
+$break-xlarge: 100em;
+
+$color1: #080808; // black
+$color2: #7a7a7a; // light-grey
+$color3: #649fd6; // blue
+
+$transition: cubic-bezier(0.25,.46,.45,.94);
+
+$social: (
+	facebook: #3b5998,
+	google-plus: #dd4b39,
+	linkedin: #007bb6,
+	pinterest: #cb2027,
+	twitter: #00aced,
+	instagram: #3f729b,
+	vk: #45668e,
+	tumblr: #35465c,
+	xing: #cfdc00,
+	soundcloud: #f80,
+	dribbble: #ea4c89,
+	youtube: #e52d27,
+	spotify: #7ab800,
+	behance: #1769ff,
+	deviantart: #4e6252,
+	vimeo: #1ab7ea,
+	rss: #f26522
+);
+
+@mixin input-placeholder {
+	&.placeholder { @content; }
+	&:-moz-placeholder { @content; }
+	&::-moz-placeholder { @content; }
+	&:-ms-input-placeholder { @content; }
+	&::-webkit-input-placeholder { @content; }
+}
+
+
+/*------------------------------------------------------------------
+[Table of contents]
+
+1. General
+2. Re-usable Styles
+3. Body
+4. Typography
+5. Sub-Header & Header
+6. Footer
+7. Post Syling
+8. Sidebar & Widgets
+9. Pagination
+10. Carousel
+15. Form Styling
+17. Contact Page
+18. 404 Page
+19. WP-Specific
+20. Mobile Menu
+22. Comments
+24. Shortcodes
+25. Animations
+-------------------------------------------------------------------*/
+
+/*------------------------------------------------------------------
+General
+*/
+html {
+	height: 100%;
+
+}
+body {
+	color: #525252;
+	background: #fff;
+	position: static;
+	scroll-behavior: smooth;
+	@extend .titlefont;
+	
+	@media only screen and (min-width: $break-small) {
+		position: relative;	
+	}
+	div, dl, dt, dd, ul, ol, li, pre, form, p, th, td {
+		font-size: inherit;
+		font-family: inherit;
+	}
+	p,
+	lighting-color {
+		font-style: normal;
+		font-size: 16px;
+		font-weight: 400;
+		line-height: 1.6em;
+		text-rendering: geometricPrecision;
+		-webkit-font-smoothing: antialiased;
+	}
+	strong {
+		font-weight: 600;	
+	}
+}
+figure {
+	margin: 0;	
+}
+
+a {
+	color: $color1;
+	outline: 0;
+	@extend .linear-quick-transition;
+	&:focus {
+		color: $color1;
+	}
+	&:hover {
+		color: $color3;	
+	}
+}
+.titlefont {
+	font-family: "Poppins", sans-serif;
+}
+.bodyfont {
+	font-family: "Droid Serif", serif;
+}
+h1, h2, h3, h4, h5, h6 {
+	color: $color1;
+	margin-top: 0;
+	letter-spacing: -0.04em;
+	font-weight: 600;
+	text-rendering: geometricPrecision;
+	-webkit-font-smoothing: antialiased;
+	@extend .titlefont;
+}
+/*------------------------------------------------------------------
+Re-usable Styles
+*/
+@import "utilities.scss";
+
+/*------------------------------------------------------------------
+Body
+*/
+@import "structure.scss";
+
+/*------------------------------------------------------------------
+Typography
+*/
+@import "typography.scss";
+
+/*------------------------------------------------------------------
+Subheader
+*/
+@import "subheader.scss";
+
+/*------------------------------------------------------------------
+Header
+*/
+@import "header.scss";
+
+/*------------------------------------------------------------------
+Mobile Menu
+*/
+@import "mobilemenu.scss";
+
+/*------------------------------------------------------------------
+Carousel
+*/
+@import "carousel.scss";
+
+/*------------------------------------------------------------------
+Post Syling
+*/
+@import "posts.scss";
+@import "post-review.scss";
+
+/*------------------------------------------------------------------
+Pages
+*/
+@import "authorpage.scss";
+@import "categorypage.scss";
+
+/*------------------------------------------------------------------
+Sidebar & Widgets
+*/
+@import "sidebar.scss";
+
+/*------------------------------------------------------------------
+Pagination
+*/
+@import "pagination.scss";
+
+/*------------------------------------------------------------------
+Form Styling
+*/
+@import "forms.scss";
+
+/*------------------------------------------------------------------
+WP-Specific
+*/
+@import "wpspecific.scss";
+
+/*------------------------------------------------------------------
+Comments
+*/
+@import "comments.scss";
+
+/*------------------------------------------------------------------
+Shortcodes
+*/
+@import "shortcodes.scss";
+
+/*------------------------------------------------------------------
+Plugins
+*/
+@import "plugins.scss";
+
+/*------------------------------------------------------------------
+Animations
+*/
+@import "customanimation.scss";
+
+/*------------------------------------------------------------------
+Footer
+*/
+@import "footer.scss";
+
+/*------------------------------------------------------------------
+404 Page
+*/
+@import "404.scss";
+
+/*------------------------------------------------------------------
+MFP
+*/
+@import "mfp.scss";
+
+/*------------------------------------------------------------------
+Theme Switcher
+*/
+@import "themeswitcher.scss";

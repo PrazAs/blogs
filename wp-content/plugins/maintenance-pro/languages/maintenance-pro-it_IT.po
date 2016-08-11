@@ -1,0 +1,314 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Maintenance PRO\n"
+"POT-Creation-Date: 2016-04-18 10:51+0300\n"
+"PO-Revision-Date: 2016-04-18 11:12+0300\n"
+"Last-Translator: fruitfulcode <mail@fruitfulcode.com>\n"
+"Language-Team: fruitfulcode.com <yakovlev@fruitfulcode.com>\n"
+"Language: it\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e;_x\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: js\n"
+
+#: includes/_message.php:5
+msgid "Download free version"
+msgstr "Scarica la versione gratuita"
+
+#: includes/_message.php:8
+msgid "Maintenance free is required"
+msgstr "È necessaria manutenzione libera"
+
+#: includes/_message.php:8
+msgid "Please download and install free basic version to get PRO features"
+msgstr ""
+"Si prega di scaricare e installare la versione gratuita di base per ottenere "
+"funzionalità PRO"
+
+#: includes/functions.php:102 includes/functions.php:767
+msgid "Days"
+msgstr "Giorni"
+
+#: includes/functions.php:103 includes/functions.php:780
+msgid "Hours"
+msgstr "Ore"
+
+#: includes/functions.php:104 includes/functions.php:793
+msgid "Minutes"
+msgstr "Minuti"
+
+#: includes/functions.php:105 includes/functions.php:806
+msgid "Seconds"
+msgstr "Secondi"
+
+#: includes/functions.php:189
+msgid "Splash Page"
+msgstr "pagina saver"
+
+#: includes/functions.php:195
+msgid "Exclude User Roles"
+msgstr "Escludi ruoli utente"
+
+#: includes/functions.php:201 includes/functions.php:399
+msgid "Gallery"
+msgstr "Gallery"
+
+#: includes/functions.php:207
+msgid "Countdown"
+msgstr "Conto alla rovescia"
+
+#: includes/functions.php:214
+msgid "HTML in PopUp window"
+msgstr "HTML nella finestra di PopUp"
+
+#: includes/functions.php:220
+msgid "eMail Lists"
+msgstr "liste e-mail"
+
+#: includes/functions.php:226
+msgid "Social"
+msgstr "Sociale"
+
+#: includes/functions.php:235
+msgid "Preloader On / Off"
+msgstr ""
+
+#: includes/functions.php:247
+msgid "Enter site button On / Off"
+msgstr "Inserisci pulsante del sito On / Off"
+
+#: includes/functions.php:262
+msgid "Text for button"
+msgstr "Testo pulsante"
+
+#: includes/functions.php:400
+msgid "Single video link"
+msgstr "Video link Singolo"
+
+#: includes/functions.php:410
+msgid "Add elements"
+msgstr "Aggiungi elementi"
+
+#: includes/functions.php:411
+msgid "Remove all elements"
+msgstr "Rimuovi elementi"
+
+#: includes/functions.php:418
+msgid "select to set overlays"
+msgstr "selezionare per impostare le sovrapposizioni"
+
+#: includes/functions.php:419
+msgid "no overlay"
+msgstr "nessuna sovrapposizione"
+
+#: includes/functions.php:421
+#, php-format
+msgid "%1$s example"
+msgstr "%1$s Eixample"
+
+#: includes/functions.php:434
+msgid "Delay Time"
+msgstr "Orario Ritardo"
+
+#: includes/functions.php:449
+msgid "Edit single link"
+msgstr "Modifica singolo link"
+
+#: includes/functions.php:451
+msgid "YouTube or Vimeo"
+msgstr "YouTube or Vimeo"
+
+#: includes/functions.php:511
+msgid "Set expiry date"
+msgstr "Imposta data di scadenza"
+
+#: includes/functions.php:518
+msgid "Time Start"
+msgstr "Ora di inizio"
+
+#: includes/functions.php:527
+msgid "Date Start"
+msgstr "Data di inizio"
+
+#: includes/functions.php:538
+msgid "Time end"
+msgstr "Ora di fine"
+
+#: includes/functions.php:545
+msgid "Date end"
+msgstr "Data di fine"
+
+#: includes/functions.php:559
+msgid "Type"
+msgstr "Tipo"
+
+#: includes/functions.php:563
+msgid "Simple"
+msgstr "Semplice"
+
+#: includes/functions.php:564
+msgid "Boxed"
+msgstr "boxed"
+
+#: includes/functions.php:565
+msgid "Circle"
+msgstr "Cerchio"
+
+#: includes/functions.php:572
+msgid "Set color scheme"
+msgstr "Regime di colore"
+
+#: includes/functions.php:581
+msgid "Set font color"
+msgstr "Imposta colore carattere"
+
+#: includes/functions.php:589
+msgid "Font family"
+msgstr "Famiglia font"
+
+#: includes/functions.php:601
+msgid "Maintenance off after expiry"
+msgstr "Manutenzione dopo la scadenza"
+
+#: includes/functions.php:611
+msgid "Turn off the countdown"
+msgstr "Spegnere il conto alla rovescia"
+
+#: includes/functions.php:631
+msgid "Select user roles"
+msgstr "Selezionare i ruoli utente"
+
+#: includes/functions.php:852
+msgid "Check the correct input \"APP ID\" or \"LIST ID\" to MailChimp access!"
+msgstr ""
+"Controllare l'ingresso corretto \"APP ID\" o \"LIST ID\" per l'accesso "
+"MailChimp!"
+
+#: includes/functions.php:866
+#, php-format
+msgid "Campaing Monitor Erorr: %s !"
+msgstr ""
+
+#: includes/functions.php:917
+msgid "Text for \"Read More\" button"
+msgstr "Testo per \"Read More\" pulsante"
+
+#: includes/functions.php:939
+msgid "Mail Chimp"
+msgstr ""
+
+#: includes/functions.php:940
+msgid "Campaign Monitor"
+msgstr ""
+
+#: includes/functions.php:953 includes/functions.php:1287
+#: maintenance-pro.php:121
+msgid "Be the first to know when website is ready"
+msgstr "Puoi essere il primo a sapere quando il sito è pronto"
+
+#: includes/functions.php:960
+msgid "Subscribe form title"
+msgstr "Iscriviti titolo modulo"
+
+#: includes/functions.php:969
+msgid "Mailing List"
+msgstr ""
+
+#: includes/functions.php:983 includes/functions.php:1011
+msgid "API Key"
+msgstr ""
+
+#: includes/functions.php:992 includes/functions.php:1020
+msgid "List ID"
+msgstr ""
+
+#: includes/functions.php:1002
+msgid "Client ID"
+msgstr ""
+
+#: includes/functions.php:1030
+msgid "Get All Available lists"
+msgstr "Ottenere Tutti gli elenchi disponibili"
+
+#: includes/functions.php:1128
+msgid "Facebook"
+msgstr ""
+
+#: includes/functions.php:1129
+msgid "Twitter"
+msgstr ""
+
+#: includes/functions.php:1130
+msgid "Google+"
+msgstr ""
+
+#: includes/functions.php:1131
+msgid "LinkedIn"
+msgstr ""
+
+#: includes/functions.php:1132
+msgid "Dribbble"
+msgstr ""
+
+#: includes/functions.php:1133
+msgid "Behance"
+msgstr ""
+
+#: includes/functions.php:1134
+msgid "Tumblr"
+msgstr ""
+
+#: includes/functions.php:1135
+msgid "Flickr"
+msgstr ""
+
+#: includes/functions.php:1136
+msgid "Pinterest"
+msgstr ""
+
+#: includes/functions.php:1137
+msgid "Vimeo"
+msgstr ""
+
+#: includes/functions.php:1138
+msgid "YouTube"
+msgstr ""
+
+#: includes/functions.php:1139
+msgid "Skype"
+msgstr ""
+
+#: includes/functions.php:1140
+msgid "Instagram"
+msgstr ""
+
+#: includes/functions.php:1141
+msgid "Foursquare"
+msgstr ""
+
+#: includes/functions.php:1142
+msgid "E-mail"
+msgstr ""
+
+#: includes/functions.php:1199
+msgid "Thanks for subscribing!"
+msgstr "Grazie per la sottoscrizione!"
+
+#: includes/functions.php:1298
+msgid "Email"
+msgstr ""
+
+#: includes/functions.php:1300
+msgid "Subscribe"
+msgstr "sottoscrivi"
+
+#~ msgid "Set font size"
+#~ msgstr "Imposta la dimensione dei caratteri"
+
+#~ msgid "User roles"
+#~ msgstr "Пользовательские роли"

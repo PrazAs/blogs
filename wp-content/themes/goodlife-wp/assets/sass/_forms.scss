@@ -1,0 +1,90 @@
+form {
+	margin: 0;
+
+	fieldset {
+		padding: 0;
+		margin: 0;
+		border: 0;
+	}
+}
+input[type="text"],
+input[type="password"],
+input[type="date"],
+input[type="datetime"],
+input[type="email"],
+input[type="number"],
+input[type="search"],
+input[type="tel"],
+input[type="time"],
+input[type="url"],
+textarea {
+	border: 1px solid #e6e6e6;
+	padding: 12px 15px 11px;
+	margin-bottom: 24px;
+	color: rgba(0,0,0,0.6);
+	font-size: 11px;
+	font-weight: 500;
+	background: #fff;
+	max-width: 100%;
+	outline: 0;
+	font-family: inherit;
+	border-radius: 0;
+	@include box-shadow(none);
+	@include appearance(none);
+	@extend .transition;
+	&:focus {
+		background: #fff;
+		border-color: $color1;
+		color: $color1;
+	}
+
+	&.parsley-error,
+	&.wpcf7-not-valid,
+	.woocommerce-invalid-required-field &{
+		border-color: #e76049;
+	}
+	&.full {
+		width: 100%;
+	}
+	.widget & {
+		background: transparent;
+	}
+	@include input-placeholder { 
+		text-transform: uppercase;
+		color: #8f8f8f;
+		font-size: 11px;
+	};
+}
+.parsley-error-list,
+.wpcf7-not-valid-tip,
+.screen-reader-response {
+	display: none !important;
+}
+.wpcf7-form-control-wrap {
+	display: block;
+	width: 100%;
+}
+label {
+	font-size: 11px;
+	display: block;
+	color: $color1;
+	margin: 0 0 8px;
+	line-height: 1;
+	font-weight: 600;
+	text-transform: uppercase;
+	clear: both;
+	small {
+		font-size: 10px;
+		color: $color3;	
+	}
+}
+textarea {
+	min-height: 108px;
+
+	.wpcf7-form & {
+		min-height: 200px;
+	}
+	.review-popup & {
+		min-height: 150px;	
+	}
+}

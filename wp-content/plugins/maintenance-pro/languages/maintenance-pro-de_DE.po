@@ -1,0 +1,512 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: maintenance\n"
+"POT-Creation-Date: 2016-04-18 10:59+0300\n"
+"PO-Revision-Date: 2016-04-18 11:10+0300\n"
+"Last-Translator: fruitfulcode <mail@fruitfulcode.com>\n"
+"Language-Team: Massimo Pacifici <pacifici@eumed.it>\n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7\n"
+"X-Poedit-KeywordsList: _;_e;__;_x\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: js\n"
+
+#: includes/_message.php:5
+msgid "Download free version"
+msgstr "Download der kostenlosen Version"
+
+#: includes/_message.php:8
+msgid "Maintenance free is required"
+msgstr "Kostenlose Version ist erforderlich"
+
+#: includes/_message.php:8
+msgid "Please download and install free basic version to get PRO features"
+msgstr ""
+"Bitte laden und installieren Sie die kostenlose Basisversion um die PRO-"
+"Funktionen nutzen zu können"
+
+#: includes/functions.php:102 includes/functions.php:767
+msgid "Days"
+msgstr "Tage"
+
+#: includes/functions.php:103 includes/functions.php:780
+msgid "Hours"
+msgstr "Stunden"
+
+#: includes/functions.php:104 includes/functions.php:793
+msgid "Minutes"
+msgstr "Minuten"
+
+#: includes/functions.php:105 includes/functions.php:806
+msgid "Seconds"
+msgstr "Sekunden"
+
+#: includes/functions.php:189
+msgid "Splash Page"
+msgstr "Seite Schoner"
+
+#: includes/functions.php:195
+msgid "Exclude User Roles"
+msgstr "Ausschließen von Benutzerrollen"
+
+#: includes/functions.php:201 includes/functions.php:399
+msgid "Gallery"
+msgstr "Galerie"
+
+#: includes/functions.php:207
+msgid "Countdown"
+msgstr "Countdown"
+
+#: includes/functions.php:214
+msgid "HTML in PopUp window"
+msgstr "HTML in Popup-Fenster"
+
+#: includes/functions.php:220
+msgid "eMail Lists"
+msgstr "eMail-Listen"
+
+#: includes/functions.php:226
+msgid "Social"
+msgstr "Sozial"
+
+#: includes/functions.php:235
+msgid "Preloader On / Off"
+msgstr ""
+
+#: includes/functions.php:247
+msgid "Enter site button On / Off"
+msgstr ""
+
+#: includes/functions.php:262
+msgid "Text for button"
+msgstr "Text für Schaltfläche"
+
+#: includes/functions.php:400
+msgid "Single video link"
+msgstr "Einzel Video-Link"
+
+#: includes/functions.php:410
+msgid "Add elements"
+msgstr "Hinzufügen von Elementen"
+
+#: includes/functions.php:411
+msgid "Remove all elements"
+msgstr "Alle Elemente entfernen"
+
+#: includes/functions.php:418
+msgid "select to set overlays"
+msgstr "auswählen, um Überlagerungen setzen"
+
+#: includes/functions.php:419
+msgid "no overlay"
+msgstr "kein Overlay"
+
+#: includes/functions.php:421
+#, php-format
+msgid "%1$s example"
+msgstr "%1$s Beispiel"
+
+#: includes/functions.php:434
+msgid "Delay Time"
+msgstr "Verzögerungszeit"
+
+#: includes/functions.php:449
+msgid "Edit single link"
+msgstr "Bearbeiten Sie Single-Link"
+
+#: includes/functions.php:451
+msgid "YouTube or Vimeo"
+msgstr ""
+
+#: includes/functions.php:511
+msgid "Set expiry date"
+msgstr "Set Ablaufdatum"
+
+#: includes/functions.php:518
+msgid "Time Start"
+msgstr "Uhrzeit Beginn"
+
+#: includes/functions.php:527
+msgid "Date Start"
+msgstr "Datum Start"
+
+#: includes/functions.php:538
+msgid "Time end"
+msgstr "Uhrzeit Ende"
+
+#: includes/functions.php:545
+msgid "Date end"
+msgstr "Datum Ende"
+
+#: includes/functions.php:559
+msgid "Type"
+msgstr "bauaufsichtliche"
+
+#: includes/functions.php:563
+msgid "Simple"
+msgstr "Einfach"
+
+#: includes/functions.php:564
+msgid "Boxed"
+msgstr "Boxed"
+
+#: includes/functions.php:565
+msgid "Circle"
+msgstr "Kreis"
+
+#: includes/functions.php:572
+msgid "Set color scheme"
+msgstr "Farbschema festlegen"
+
+#: includes/functions.php:581
+msgid "Set font color"
+msgstr "Schriftfarbe"
+
+#: includes/functions.php:589
+msgid "Font family"
+msgstr "Schriftfamilie"
+
+#: includes/functions.php:601
+msgid "Maintenance off after expiry"
+msgstr "Wartung ab nach Ablauf"
+
+#: includes/functions.php:611
+msgid "Turn off the countdown"
+msgstr "Countdown ausschalten"
+
+#: includes/functions.php:631
+msgid "Select user roles"
+msgstr "Benutzerrollen auswählen"
+
+#: includes/functions.php:852
+msgid "Check the correct input \"APP ID\" or \"LIST ID\" to MailChimp access!"
+msgstr ""
+"Überprüfen Sie die korrekte Eingabe \"APP ID\" oder \"LIST ID\" zu MailChimp "
+"Zugang!"
+
+#: includes/functions.php:866
+#, php-format
+msgid "Campaing Monitor Erorr: %s !"
+msgstr ""
+
+#: includes/functions.php:917
+msgid "Text for \"Read More\" button"
+msgstr "Text für \"Read More\" Taste"
+
+#: includes/functions.php:939
+msgid "Mail Chimp"
+msgstr ""
+
+#: includes/functions.php:940
+msgid "Campaign Monitor"
+msgstr ""
+
+#: includes/functions.php:953 includes/functions.php:1287
+#: maintenance-pro.php:121
+msgid "Be the first to know when website is ready"
+msgstr "Sei der Erste, zu wissen, wann Website bereit ist."
+
+#: includes/functions.php:960
+msgid "Subscribe form title"
+msgstr "Abonnieren Form Titel"
+
+#: includes/functions.php:969
+msgid "Mailing List"
+msgstr "Mailingliste"
+
+#: includes/functions.php:983 includes/functions.php:1011
+msgid "API Key"
+msgstr ""
+
+#: includes/functions.php:992 includes/functions.php:1020
+msgid "List ID"
+msgstr ""
+
+#: includes/functions.php:1002
+msgid "Client ID"
+msgstr ""
+
+#: includes/functions.php:1030
+msgid "Get All Available lists"
+msgstr "Jetzt alle verfügbaren Listen"
+
+#: includes/functions.php:1128
+msgid "Facebook"
+msgstr ""
+
+#: includes/functions.php:1129
+msgid "Twitter"
+msgstr ""
+
+#: includes/functions.php:1130
+msgid "Google+"
+msgstr ""
+
+#: includes/functions.php:1131
+msgid "LinkedIn"
+msgstr ""
+
+#: includes/functions.php:1132
+msgid "Dribbble"
+msgstr ""
+
+#: includes/functions.php:1133
+msgid "Behance"
+msgstr ""
+
+#: includes/functions.php:1134
+msgid "Tumblr"
+msgstr ""
+
+#: includes/functions.php:1135
+msgid "Flickr"
+msgstr ""
+
+#: includes/functions.php:1136
+msgid "Pinterest"
+msgstr ""
+
+#: includes/functions.php:1137
+msgid "Vimeo"
+msgstr ""
+
+#: includes/functions.php:1138
+msgid "YouTube"
+msgstr ""
+
+#: includes/functions.php:1139
+msgid "Skype"
+msgstr ""
+
+#: includes/functions.php:1140
+msgid "Instagram"
+msgstr ""
+
+#: includes/functions.php:1141
+msgid "Foursquare"
+msgstr ""
+
+#: includes/functions.php:1142
+msgid "E-mail"
+msgstr ""
+
+#: includes/functions.php:1199
+msgid "Thanks for subscribing!"
+msgstr "Vielen Dank für Ihre Anmeldung!"
+
+#: includes/functions.php:1298
+msgid "Email"
+msgstr ""
+
+#: includes/functions.php:1300
+msgid "Subscribe"
+msgstr "Abonnieren"
+
+#~ msgid "Set font size"
+#~ msgstr "Stellen Sie Schriftgröße"
+
+#~ msgid "Read more"
+#~ msgstr "Weiterlesen"
+
+#~ msgid "Save changes"
+#~ msgstr "Einstellungen sichern"
+
+#~ msgid "General Settings"
+#~ msgstr "Allgemeine Einstellungen"
+
+#~ msgid "Pro version"
+#~ msgstr "Pro version"
+
+#~ msgid "Support"
+#~ msgstr "Support"
+
+#~ msgid "Page title"
+#~ msgstr "Seitentitel"
+
+#~ msgid "Headline"
+#~ msgstr "Kopfzeile"
+
+#~ msgid "Description"
+#~ msgstr "Beschreibung"
+
+#~ msgid "Logo"
+#~ msgstr "Logo"
+
+#~ msgid "Upload Logo"
+#~ msgstr "Logo hochladen"
+
+#~ msgid "Admin bar"
+#~ msgstr "Admin-Leiste"
+
+#~ msgid "Show admin bar"
+#~ msgstr "Admin-Leiste anzeigen"
+
+#~ msgid "503"
+#~ msgstr "503"
+
+#~ msgid "Service temporarily unavailable"
+#~ msgstr "Dienst temporär nicht verfügbar"
+
+#~ msgid "Google Analytics ID"
+#~ msgstr "Google Analytics ID"
+
+#~ msgid "UA-XXXXX-X"
+#~ msgstr "UA-XXXXX-X"
+
+#~ msgid "Blur intensity"
+#~ msgstr "Intensität verwischen"
+
+#~ msgid "Background blur"
+#~ msgstr "Hintergrund verwischen"
+
+#~ msgid "Apply a blur"
+#~ msgstr "Verwischen anwenden"
+
+#~ msgid "Login On / Off"
+#~ msgstr "Login Ein/Aus"
+
+#~ msgid "Background image"
+#~ msgstr "Hintergrundbild"
+
+#~ msgid "Upload Background"
+#~ msgstr "Hintergrund hochladen"
+
+#~ msgid "Background color"
+#~ msgstr "Hintergrundfarbe"
+
+#~ msgid "Font color"
+#~ msgstr "Schriftfarbe"
+
+#~ msgid "Have any questions?"
+#~ msgstr "Noch Fragen?"
+
+#~ msgid ""
+#~ "You may find answers to your questions at <a target=\"_blank\" href="
+#~ "\"http://wordpress.org/support/plugin/maintenance\">support forum</"
+#~ "a><br>You may  <a target=\"_blank\" href=\"mailto:mail@fruitfulcode.com?"
+#~ "subject=Maintenance plugin\">contact us</a> with customization requests "
+#~ "and suggestions.<br> Please visit our website to learn about us and our "
+#~ "services <a href=\"%1$s\" title=\"%2$s\">%2$s</a>"
+#~ msgstr ""
+#~ "Sie können Antworten auf Ihre Fragen auf <a target=\"_blank\" href="
+#~ "\"http://wordpress.org/support/plugin/maintenance\">Support Forum</"
+#~ "a><br>. Sie können uns kontaktieren unter: <a target=\"_blank\" href="
+#~ "\"mailto:mail@fruitfulcode.com?subject=Maintenance Plugin\"></a> mit "
+#~ "Anpassungswünschen und Vorschlägen.<br> Bitte besuchen Sie unsere "
+#~ "Webseite und erfahren Sie mehr über uns und unsere Dienstleistungen: <a "
+#~ "href=\"%1$s\" title=\"%2$s\">%2$s</a>"
+
+#~ msgid "Extended functionality"
+#~ msgstr "Erweiterte Funktionalität"
+
+#~ msgid ""
+#~ "Purchase <a href=\"http://codecanyon.net/item/maintenance-wordpress-"
+#~ "plugin/2781350?ref=fruitfulcode\" target=\"_blank\">PRO</a> version  with "
+#~ "extended functionality. %1$s If you like our plugin please <a target="
+#~ "\"_blank\" href=\"http://wordpress.org/support/view/plugin-reviews/"
+#~ "maintenance?filter=5\">rate it</a>, <a title=\"leave feedbacks\" href="
+#~ "\"%2$s\" target=\"_blank\">leave feedbacks</a>."
+#~ msgstr ""
+#~ "Kaufen Sie <a href=\"http://codecanyon.net/item/maintenance-wordpress-"
+#~ "plugin/2781350?ref=fruitfulcode\" target=\"_blank\">PRO</a> Version mit "
+#~ "erweiterter Funktionalität. %1$s Wenn Sie das Plugin mögen, bitte <a "
+#~ "target=\"_blank\" href=\"http://wordpress.org/support/view/plugin-reviews/"
+#~ "maintenance?filter=5\">bewerten Sie es</a>, <a title=\"Feedback abgeben\" "
+#~ "href=\"%2$s\" target=\"_blank\">Feedback abgeben</a>."
+
+#~ msgid "Demo website"
+#~ msgstr "Demo-Webseite"
+
+#~ msgid "Maintenance"
+#~ msgstr "Wartung"
+
+#~ msgid "Website is under construction"
+#~ msgstr "Webseite befindet sich im Aufbau"
+
+#~ msgid "Maintenance mode is on"
+#~ msgstr "Wartungs-Modus ist EIN"
+
+#~ msgid "Website will be available soon"
+#~ msgstr "Webseite wird bald verfügbar sein"
+
+#~ msgid "Permission access denied!"
+#~ msgstr "Zugriff verweigert!"
+
+#~ msgid "You entered your login are incorrect!"
+#~ msgstr "Eingegebener Anmeldename ist ungültig!"
+
+#~ msgid "You entered your password are incorrect!"
+#~ msgstr "Eingegebenes Passwort ist nicht gültig!"
+
+#~ msgid "You entered your login and password are incorrect!"
+#~ msgstr "Eingegebener Benutzer und Passwort sind nicht korrekt!"
+
+#~ msgid "Username"
+#~ msgstr "Benutzername"
+
+#~ msgid "Password"
+#~ msgstr "Passwort"
+
+#~ msgid "Sign In"
+#~ msgstr "Anmelden"
+
+#~ msgid "maintenance"
+#~ msgstr "Wartung"
+
+#~ msgid "Contact support"
+#~ msgstr "Support kontaktieren"
+
+#~ msgid ""
+#~ "If you faced with any problems, have a question or suggestion you always "
+#~ "can contact us with any request on our website <a href=\"%1$s\" title="
+#~ "\"%2$s\">%2$s</a>"
+#~ msgstr ""
+#~ "Wenn Sie auf Probleme gestossen sind, eine Frage oder einen Vorschlag "
+#~ "haben, können Sie uns jederzeit auf unserer Webseite kontaktieren: <a "
+#~ "href=\"%1$s\" title=\"%2$s\">%2$s</a>"
+
+#~ msgid ""
+#~ "If you like our plugin please rate it, %1$s <a title=\"leave feedback\" "
+#~ "href=\"%2$s\" target=\"_blank\">leave feedback</a> or purchase extended "
+#~ "version %1$s with more other features."
+#~ msgstr ""
+#~ "Wenn Sie unser Plugin mögen, bewerten Sie es bitte,  %1$s <a title="
+#~ "\"Feedback geben\" href=\"%2$s\" target=\"_blank\">Feedback geben</a> "
+#~ "oder kaufen Sie die erweiterte Version %1$s mit mehr Funktionalitäten."
+
+#~ msgid "Purchase"
+#~ msgstr "Kaufen"
+
+#~ msgid "We have time until launch"
+#~ msgstr "Wir haben Zeit bis zum Start"
+
+#~ msgid "Be first of your friends who will know when the website goes live."
+#~ msgstr ""
+#~ "Seien Sie einer der Ersten, der erfährt, wann die Webseite aufgeschaltet "
+#~ "wird."
+
+#~ msgid "Check out our extended version of plugin with new features"
+#~ msgstr ""
+#~ "Probieren Sie unsere erweiterte Version des Plugins mit neuen Funktionen"
+
+#~ msgid "Your session has expired."
+#~ msgstr "Ihre Sitzung ist abgelaufen."
+
+#~ msgid "Customer login"
+#~ msgstr "Kunden-Anmeldung"
+
+#~ msgid "Please login to see website"
+#~ msgstr "Bitte einloggen, um die Webseite anzuschauen"
+
+#~ msgid "User roles"
+#~ msgstr "Benutzerrollen"
+
+# not really sur about « We have time until launch » Because I can’t find it on the demo version…
+#~ msgid "Choose users access permissions in maintenance mode."
+#~ msgstr "Zugriffsrechte für Benutzer im Wartungsmodus auswählen."

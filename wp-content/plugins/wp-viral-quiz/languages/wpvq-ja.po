@@ -1,0 +1,1745 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Viral Quiz（1.87）\n"
+"POT-Creation-Date: 2016-04-27 13:53+0100\n"
+"PO-Revision-Date: 2016-04-27 13:53+0100\n"
+"Last-Translator: Evange <mochizuki@evange.co.jp>\n"
+"Language-Team: Evange <info@evange.co.jp>\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7.4\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: controller/WPVQDeletePlayer.php:26
+msgid "This player/quiz doesn't exist."
+msgstr ""
+
+#: controller/WPVQDeleteQuizz.php:14 controller/WPVQExportQuizz.php:15
+msgid "You can't do that ! Sorry."
+msgstr "申し訳ありませんが、あなたには実行する権限がありません！"
+
+#: controller/WPVQDeleteQuizz.php:20
+msgid "Error during quiz deletion."
+msgstr "クイズの削除中にエラーが発生しました。"
+
+#: controller/WPVQDeleteQuizz.php:24 controller/WPVQDuplicateQuizz.php:24
+#: controller/WPVQExportQuizz.php:37
+msgid "This quiz doesn't exist."
+msgstr "このクイズは存在しません。"
+
+#: controller/WPVQDuplicateQuizz.php:14
+msgid "You can't do this ! Sorry."
+msgstr "申し訳ありませんが、あなたには実行する権限がありません！"
+
+#: controller/WPVQDuplicateQuizz.php:20
+msgid "Error during quiz duplication."
+msgstr "クイズの複製中にエラーが発生しました。"
+
+#: controller/WPVQExportQuizz.php:33
+msgid "Error during export."
+msgstr ""
+
+#: controller/WPVQShortcode.php:83
+msgid "Loading"
+msgstr ""
+
+#: views/WPVQAddQuestion.WPVQGamePersonality.answer.append.multiplier.php:10
+msgid "Current:"
+msgstr "現在:"
+
+#: views/WPVQAddQuestion.WPVQGamePersonality.answer.append.multiplier.php:11
+#: views/WPVQAddQuestion.WPVQGamePersonality.answer.append.multiplier.php:12
+#: views/WPVQAddQuestion.WPVQGamePersonality.answer.append.multiplier.php:18
+msgid "point"
+msgstr "ポイント"
+
+#: views/WPVQAddQuestion.WPVQGamePersonality.answer.append.multiplier.php:13
+#: views/WPVQAddQuestion.WPVQGamePersonality.answer.append.multiplier.php:14
+#: views/WPVQAddQuestion.WPVQGamePersonality.answer.append.multiplier.php:15
+#: views/WPVQAddQuestion.WPVQGamePersonality.answer.append.multiplier.php:16
+#: views/WPVQAddQuestion.WPVQGamePersonality.answer.append.multiplier.php:19
+#: views/WPVQAddQuestion.WPVQGamePersonality.answer.append.multiplier.php:20
+#: views/WPVQAddQuestion.WPVQGamePersonality.answer.append.multiplier.php:21
+#: views/WPVQAddQuestion.WPVQGamePersonality.answer.append.multiplier.php:22
+#: views/WPVQAddQuestion.WPVQGameTrueFalse.appreciation.append.php:10
+msgid "points"
+msgstr "ポイント"
+
+#: views/WPVQAddQuestion.WPVQGamePersonality.answer.append.php:15
+#: views/WPVQAddQuestion.WPVQGameTrueFalse.answer.append.php:15
+msgid "Answer :"
+msgstr "答え ："
+
+#: views/WPVQAddQuestion.WPVQGamePersonality.answer.append.php:18
+msgid "How many points this answer gives to each personality ?"
+msgstr "いくつのポイントをこのクイズの回答でそれぞれの性格に与えますか？"
+
+#: views/WPVQAddQuestion.WPVQGamePersonality.answer.append.php:34
+#: views/WPVQAddQuestion.WPVQGameTrueFalse.answer.append.php:26
+msgid "Add an image to illustrate this answer"
+msgstr "この答えを説明するために画像を追加します。"
+
+#: views/WPVQAddQuestion.WPVQGamePersonality.answer.append.php:37
+#: views/WPVQAddQuestion.WPVQGamePersonality.append.php:43
+#: views/WPVQAddQuestion.WPVQGameTrueFalse.answer.append.php:29
+#: views/WPVQAddQuestion.WPVQGameTrueFalse.append.php:38
+msgid "Delete this picture"
+msgstr "この画像を削除します。"
+
+#: views/WPVQAddQuestion.WPVQGamePersonality.answer.append.php:51
+#: views/WPVQAddQuestion.WPVQGamePersonality.append.php:69
+#: views/WPVQAddQuestion.WPVQGamePersonality.personality.append.php:18
+#: views/WPVQAddQuestion.WPVQGameTrueFalse.answer.append.php:43
+#: views/WPVQAddQuestion.WPVQGameTrueFalse.append.php:83
+#: views/WPVQAddQuestion.WPVQGameTrueFalse.appreciation.append.php:23
+msgid "Do you really want to delete it ?"
+msgstr "本当にこれを削除したいですか？"
+
+#: views/WPVQAddQuestion.WPVQGamePersonality.answer.append.php:51
+#: views/WPVQAddQuestion.WPVQGameTrueFalse.answer.append.php:43
+msgid "Delete this answer"
+msgstr "この回答を削除します。"
+
+#: views/WPVQAddQuestion.WPVQGamePersonality.append.php:20
+#: views/WPVQAddQuestion.WPVQGameTrueFalse.append.php:20
+msgid "Question"
+msgstr "質問"
+
+#: views/WPVQAddQuestion.WPVQGamePersonality.append.php:21
+#: views/WPVQAddQuestion.WPVQGameTrueFalse.append.php:21
+msgid "Is it ..... ?"
+msgstr "それは ... ？"
+
+#: views/WPVQAddQuestion.WPVQGamePersonality.append.php:25
+#: views/WPVQAddQuestion.WPVQGameTrueFalse.append.php:25
+msgid "HTML tags + [shortcodes] allowed"
+msgstr ""
+
+#: views/WPVQAddQuestion.WPVQGamePersonality.append.php:34
+#: views/WPVQAddQuestion.WPVQGameTrueFalse.append.php:34
+msgid "Add a cover image to illustrate this question"
+msgstr "この質問を説明するためにアイキャッチ画像を追加します。"
+
+#: views/WPVQAddQuestion.WPVQGamePersonality.append.php:50
+#: views/WPVQAddQuestion.WPVQGameTrueFalse.append.php:50
+msgid "Add a new answer"
+msgstr "新しい回答を追加します。"
+
+#: views/WPVQAddQuestion.WPVQGamePersonality.append.php:50
+msgid "for this question"
+msgstr "この質問へ"
+
+#: views/WPVQAddQuestion.WPVQGamePersonality.append.php:61
+#: views/WPVQAddQuestion.WPVQGameTrueFalse.append.php:61
+msgid "Do you want to add a page after this question ?"
+msgstr "あなたはこの質問の後にページを追加しますか？"
+
+#: views/WPVQAddQuestion.WPVQGamePersonality.append.php:69
+#: views/WPVQAddQuestion.WPVQGameTrueFalse.append.php:84
+msgid "Delete this question"
+msgstr "この質問を削除します。"
+
+#: views/WPVQAddQuestion.WPVQGamePersonality.append.php:71
+#: views/WPVQAddQuestion.WPVQGameTrueFalse.append.php:87
+msgid "Ranking"
+msgstr "ランキング"
+
+#: views/WPVQAddQuestion.WPVQGamePersonality.personality.append.php:4
+msgid "Personality"
+msgstr "性格"
+
+#: views/WPVQAddQuestion.WPVQGamePersonality.personality.append.php:4
+msgid "Personality name"
+msgstr "性格名"
+
+#: views/WPVQAddQuestion.WPVQGamePersonality.personality.append.php:7
+msgid "Personality description :"
+msgstr "性格の説明："
+
+#: views/WPVQAddQuestion.WPVQGamePersonality.personality.append.php:12
+#: views/WPVQAddQuestion.WPVQGameTrueFalse.appreciation.append.php:18
+msgid "[shortcodes] allowed"
+msgstr ""
+
+#: views/WPVQAddQuestion.WPVQGamePersonality.personality.append.php:18
+msgid "Delete this personality"
+msgstr "この性格を削除"
+
+#: views/WPVQAddQuestion.WPVQGameTrueFalse.answer.append.php:16
+msgid "The ...."
+msgstr "...."
+
+#: views/WPVQAddQuestion.WPVQGameTrueFalse.answer.append.php:18
+msgid "This answer is the right answer"
+msgstr "この答えは正しい答えです"
+
+#: views/WPVQAddQuestion.WPVQGameTrueFalse.append.php:50
+msgid "to this question"
+msgstr "この質問へ"
+
+#: views/WPVQAddQuestion.WPVQGameTrueFalse.append.php:71
+msgid "Do you want to give an explaination when people answer?"
+msgstr "あなたは、人々が答える説明を提供したいですか？"
+
+#: views/WPVQAddQuestion.WPVQGameTrueFalse.appreciation.append.php:9
+msgid "Less than"
+msgstr "未満"
+
+#: views/WPVQAddQuestion.WPVQGameTrueFalse.appreciation.append.php:10
+msgid "x"
+msgstr "x"
+
+#: views/WPVQAddQuestion.WPVQGameTrueFalse.appreciation.append.php:10
+msgid "(excluded)"
+msgstr "（除外）"
+
+#: views/WPVQAddQuestion.WPVQGameTrueFalse.appreciation.append.php:13
+msgid "Appreciation :"
+msgstr "感謝："
+
+#: views/WPVQAddQuestion.WPVQGameTrueFalse.appreciation.append.php:23
+msgid "Delete this appreciation"
+msgstr "この感謝を削除"
+
+#: views/WPVQAddQuizz.php:9
+msgid "Build a new"
+msgstr "新規構築"
+
+#: views/WPVQAddQuizz.php:11
+msgid "Edit your"
+msgstr ""
+
+#: views/WPVQAddQuizz.php:15 views/WPVQShowPlayers.php:56
+#: views/WPVQShowQuizzes.php:82
+msgid "Quiz"
+msgstr "クイズ"
+
+#: views/WPVQAddQuizz.php:22
+msgid "Title :"
+msgstr ""
+
+#: views/WPVQAddQuizz.php:26
+msgid "You can change the title in the Settings Tab."
+msgstr ""
+
+#: views/WPVQAddQuizz.php:35
+msgid "Quiz has been updated."
+msgstr "クイズを更新しました。"
+
+#: views/WPVQAddQuizz.php:56
+msgid "Appreciations"
+msgstr ""
+
+#: views/WPVQAddQuizz.php:56
+msgid "Personalities"
+msgstr ""
+
+#: views/WPVQAddQuizz.php:57
+msgid "Questions/answers"
+msgstr ""
+
+#: views/WPVQAddQuizz.php:58 views/WPVQAddQuizz.php:70 wp-viral-quiz.php:381
+#: wpvq-settings-page.php:898
+msgid "Settings"
+msgstr "設定"
+
+#: views/WPVQAddQuizz.php:70
+msgid "Configure your quiz like a boss"
+msgstr ""
+
+#: views/WPVQAddQuizz.php:72
+msgid "Enable some exciting features and improve your quiz's virality !"
+msgstr ""
+
+#: views/WPVQAddQuizz.php:76
+msgid "Display & Gameplay"
+msgstr "表示 & ゲーム開始"
+
+#: views/WPVQAddQuizz.php:82
+msgid "The Quiz's Title"
+msgstr ""
+
+#: views/WPVQAddQuizz.php:85
+msgid "Type your quiz's title here"
+msgstr ""
+
+#: views/WPVQAddQuizz.php:90
+msgid "What skin do you want"
+msgstr "どんな外観が欲しいですか?"
+
+#: views/WPVQAddQuizz.php:94
+msgid "The BuzzFeed Skin"
+msgstr "BuzzFeed風の外観"
+
+#: views/WPVQAddQuizz.php:95
+msgid "A Modern Flat Skin"
+msgstr "モダンフラットの外観"
+
+#: views/WPVQAddQuizz.php:96
+msgid "Custom Skin (use wpvq-custom.css in your root theme dir.)"
+msgstr "カスタムスキン (ルートディレクトリで wpvq-custom.cssを使用)"
+
+#: views/WPVQAddQuizz.php:103
+msgid "Display Random Questions ?"
+msgstr "質問をランダムに表示？"
+
+#: views/WPVQAddQuizz.php:108
+msgid "and show only"
+msgstr "表示のみ"
+
+#: views/WPVQAddQuizz.php:108
+msgid "questions (put 999 for \"all\")"
+msgstr "質問 (999で\"すべて\"を表示)"
+
+#: views/WPVQAddQuizz.php:115
+msgid "Random order for answers ?"
+msgstr "ランダムな順序の答えですか？"
+
+#: views/WPVQAddQuizz.php:120
+msgid "Yes, shuffle the answers for each question"
+msgstr "はい、各質問に対する答えをシャッフルします"
+
+#: views/WPVQAddQuizz.php:127
+msgid "\"Start quiz\" button ?"
+msgstr ""
+
+#: views/WPVQAddQuizz.php:135
+msgid "User need to click a button to start the quiz"
+msgstr ""
+
+#: views/WPVQAddQuizz.php:142
+msgid "\"Play again\" button ?"
+msgstr ""
+
+#: views/WPVQAddQuizz.php:147
+msgid "Display a \"Play Again\" button at the end of the quiz"
+msgstr ""
+
+#: views/WPVQAddQuizz.php:154
+msgid "Redirect users at the end of the quiz ?"
+msgstr ""
+
+#: views/WPVQAddQuizz.php:159
+msgid "More info here."
+msgstr ""
+
+#: views/WPVQAddQuizz.php:168
+msgid "Hide right/wrong answers ?"
+msgstr ""
+
+#: views/WPVQAddQuizz.php:173
+msgid "Hide right/wrong answsers until the end of the quiz"
+msgstr ""
+
+#: views/WPVQAddQuizz.php:182
+msgid "Refresh browser on page changes"
+msgstr "リフレッシュブラウザでページ変更"
+
+#: views/WPVQAddQuizz.php:190
+msgid "Refresh browser when changing quiz page (cool for pageviews++)"
+msgstr ""
+"クイズのページを変更したときにブラウザを更新（ページビューのためのクール++）"
+
+#: views/WPVQAddQuizz.php:198
+msgid "\"Continue\" button between pages"
+msgstr ""
+
+#: views/WPVQAddQuizz.php:206
+msgid "Force user to click on \"Continue\" between each page"
+msgstr ""
+
+#: views/WPVQAddQuizz.php:216
+msgid "Virality"
+msgstr ""
+
+#: views/WPVQAddQuizz.php:222
+msgid "People have to share the quiz to see their results :"
+msgstr "ユーザーは結果を確認するためにクイズを共有しなければなりません。"
+
+#: views/WPVQAddQuizz.php:227
+msgid "Yes, they have to share on Facebook"
+msgstr "はい、答えを確認する上で Facebook で共有する必要があります。"
+
+#: views/WPVQAddQuizz.php:234
+msgid "Share buttons"
+msgstr "共有ボタン"
+
+#: views/WPVQAddQuizz.php:239
+msgid "Display share buttons at the end of the quiz"
+msgstr "クイズの終わりに共有ボタンの表示"
+
+#: views/WPVQAddQuizz.php:246
+msgid "Promote the plugin"
+msgstr "プラグインを広めて下さい"
+
+#: views/WPVQAddQuizz.php:264
+msgid "Marketing Services"
+msgstr ""
+
+#: views/WPVQAddQuizz.php:269
+msgid "Ask player informations at the end"
+msgstr ""
+
+#: views/WPVQAddQuizz.php:279
+msgid "Capture e-mails"
+msgstr "メールを登録する"
+
+#: views/WPVQAddQuizz.php:284
+msgid "People have to give their e-mail"
+msgstr ""
+
+#: views/WPVQAddQuizz.php:291
+msgid "Capture names"
+msgstr "名前を登録"
+
+#: views/WPVQAddQuizz.php:296
+msgid "People have to give their first name"
+msgstr ""
+
+#: views/WPVQAddQuizz.php:303
+msgid "Is it optional ?"
+msgstr ""
+
+#: views/WPVQAddQuizz.php:308
+msgid "People can ignore"
+msgstr ""
+
+#: views/WPVQAddQuizz.php:317
+msgid "Enable Mailchimp Synchronisation"
+msgstr ""
+
+#: views/WPVQAddQuizz.php:319
+msgid "(Learn to configure) "
+msgstr ""
+
+#: views/WPVQAddQuizz.php:327
+msgid "API Key"
+msgstr ""
+
+#: views/WPVQAddQuizz.php:337 views/WPVQAddQuizz.php:412
+msgid "List ID"
+msgstr ""
+
+#: views/WPVQAddQuizz.php:347
+msgid "Firstname Field name"
+msgstr ""
+
+#: views/WPVQAddQuizz.php:351 views/WPVQAddQuizz.php:361
+#: views/WPVQAddQuizz.php:426
+msgid "Optional"
+msgstr ""
+
+#: views/WPVQAddQuizz.php:357 views/WPVQAddQuizz.php:422
+msgid "Result Field name"
+msgstr ""
+
+#: views/WPVQAddQuizz.php:367
+msgid "Double Opt-In ?"
+msgstr ""
+
+#: views/WPVQAddQuizz.php:382
+msgid "Enable Aweber Synchronisation"
+msgstr ""
+
+#: views/WPVQAddQuizz.php:384
+msgid "(Learn to configure)"
+msgstr ""
+
+#: views/WPVQAddQuizz.php:392
+msgid "Auth Code"
+msgstr ""
+
+#: views/WPVQAddQuizz.php:402
+msgid "Waiting for auth code..."
+msgstr ""
+
+#: views/WPVQAddQuizz.php:440
+msgid "Ads & Content Management"
+msgstr ""
+
+#: views/WPVQAddQuizz.php:444
+msgid "You can also configure global ads & content (for all your quizzes)"
+msgstr ""
+
+#: views/WPVQAddQuizz.php:444
+msgid "using the settings page"
+msgstr ""
+
+#: views/WPVQAddQuizz.php:445
+msgid ""
+"The settings below don't overwrite global settings. They run both "
+"simultaneously."
+msgstr ""
+
+#: views/WPVQAddQuizz.php:451
+msgid "Add custom ads/content around this quiz"
+msgstr ""
+
+#: views/WPVQAddQuizz.php:461
+msgid "HTML + [shortcodes] allowed"
+msgstr ""
+
+#: views/WPVQAddQuizz.php:470
+msgid "Just before the quiz"
+msgstr ""
+
+#: views/WPVQAddQuizz.php:480
+msgid "Just after the quiz"
+msgstr ""
+
+#: views/WPVQAddQuizz.php:490 wpvq-settings-page.php:136
+msgid "Above the result area (when a quiz is finished)"
+msgstr "結果領域の上（クイズが終了したとき）"
+
+#: views/WPVQAddQuizz.php:500 wpvq-settings-page.php:144
+msgid "Just after the text in the result area"
+msgstr "結果領域のテキストの直後に"
+
+#: views/WPVQAddQuizz.php:520
+msgid "Save the configuration"
+msgstr ""
+
+#: views/WPVQAddQuizz.php:529 views/WPVQAddQuizz.php:573
+msgid "Step"
+msgstr "ステップ"
+
+#: views/WPVQAddQuizz.php:529 views/WPVQAddQuizz.php:531
+msgid "Add some questions & answers to your quiz"
+msgstr "何かの質問 & あなたのクイズの答えを追加します。"
+
+#: views/WPVQAddQuizz.php:535
+msgid ""
+"You can add picture for each question and answer, it makes your quiz more "
+"fun and viral."
+msgstr ""
+"あなたは、それぞれの質問と回答のための画像を追加することができ、あなたのクイ"
+"ズでもっとファンとインフルエンサーを獲得出来ます。"
+
+#: views/WPVQAddQuizz.php:538
+msgid "Protip To Make The Perfect Quiz :"
+msgstr "Protipで完全なクイズを作る："
+
+#: views/WPVQAddQuizz.php:539
+msgid ""
+"If you use pictures to illustrate the answers, each picture should be at "
+"least 300px * 300px."
+msgstr ""
+"あなたは答えを説明するために写真を使用する場合、各画像は少なくとも300px×300px"
+"にする必要があります。"
+
+#: views/WPVQAddQuizz.php:550
+msgid "Add a new question"
+msgstr "新しい質問を追加"
+
+#: views/WPVQAddQuizz.php:564
+msgid "Save the questions"
+msgstr ""
+
+#: views/WPVQAddQuizz.php:573
+msgid "Create some personalities for your quiz"
+msgstr "まず性格診断クイズの答えを作成します。"
+
+#: views/WPVQAddQuizz.php:575
+msgid "If you put a picture in your personality descriptions"
+msgstr "あなたの性格診断で画像を配置する場合"
+
+#: views/WPVQAddQuizz.php:576 views/WPVQAddQuizz.php:595
+msgid "it will be used in the Facebook share box."
+msgstr "これはFacebookの共有ボックスに使用されます。"
+
+#: views/WPVQAddQuizz.php:577 views/WPVQAddQuizz.php:596
+msgid "See what it means."
+msgstr "それが何を意味するかを参照してください。"
+
+#: views/WPVQAddQuizz.php:585
+msgid "Add a new personality"
+msgstr "新しい性格診断を追加します。"
+
+#: views/WPVQAddQuizz.php:591
+msgid "Quiz results depending on the score"
+msgstr ""
+
+#: views/WPVQAddQuizz.php:593
+msgid "Write something to people depending on their score."
+msgstr "スコアによって人々に何かを書きます。"
+
+#: views/WPVQAddQuizz.php:594
+msgid "If you put a picture in an appreciation"
+msgstr "あなたが理解した上での画像を配置する場合"
+
+#: views/WPVQAddQuizz.php:601
+msgid "An example"
+msgstr "例"
+
+#: views/WPVQAddQuizz.php:601
+msgid "for a quiz with 10 questions"
+msgstr "10 問のクイズ"
+
+#: views/WPVQAddQuizz.php:604
+msgid "Less than 4 points"
+msgstr "4ポイント未満"
+
+#: views/WPVQAddQuizz.php:604
+msgid "you are bad. Just bad."
+msgstr "結果は悪いです。とてもよくない。"
+
+#: views/WPVQAddQuizz.php:605
+msgid "Less than 8 points"
+msgstr "8ポイント未満"
+
+#: views/WPVQAddQuizz.php:605
+msgid "Hum okay, not bad!"
+msgstr "ふむ普通、悪くはない！"
+
+#: views/WPVQAddQuizz.php:606
+msgid "Less than 10 points"
+msgstr "10ポイント未満"
+
+#: views/WPVQAddQuizz.php:606
+msgid "Really nice, good game."
+msgstr "本当にすばらしい、良いです。"
+
+#: views/WPVQAddQuizz.php:607
+msgid "Less than 11 points"
+msgstr "11ポイント未満"
+
+#: views/WPVQAddQuizz.php:607
+msgid "Perfect! You are a real rockstar!"
+msgstr "パーフェクト！あなたは完璧です！"
+
+#: views/WPVQAddQuizz.php:616
+msgid "Add a new appreciation"
+msgstr "新しい評価を加えます"
+
+#: views/WPVQAddQuizz.php:631
+msgid "Save the appreciations"
+msgstr ""
+
+#: views/WPVQAddQuizz.php:641
+msgid "Shortcuts :"
+msgstr "ショートカット："
+
+#: views/WPVQAddQuizz.php:644
+msgid "Minimize all the questions"
+msgstr "すべての質問を最小限表示にします"
+
+#: views/WPVQAddQuizz.php:645
+msgid "Expand all the questions"
+msgstr "すべての質問を展開します"
+
+#: views/WPVQAddQuizz.php:647
+msgid "Scroll to the begining"
+msgstr ""
+
+#: views/WPVQAddQuizz.php:648
+msgid "Scroll to the end"
+msgstr ""
+
+#: views/WPVQShortcode.php:197
+msgid "Start the quiz!"
+msgstr ""
+
+#: views/WPVQShortcode.php:316
+msgid "Correct!"
+msgstr "正解です ！"
+
+#: views/WPVQShortcode.php:317
+msgid "Wrong!"
+msgstr "間違っています ！"
+
+#: views/WPVQShortcode.php:325
+msgid "Continue >>"
+msgstr "続ける >>"
+
+#: views/WPVQShortcode.php:340
+msgid "Share the quiz to show your results !"
+msgstr "あなたの結果を表示するためにクイズを共有 ！"
+
+#: views/WPVQShortcode.php:368
+msgid "Just tell us who you are to view your results !"
+msgstr "あなたの結果を表示するためにあなたについて教えて下さい！"
+
+#: views/WPVQShortcode.php:375
+msgid "Your first name :"
+msgstr "あなたの名前："
+
+#: views/WPVQShortcode.php:384
+msgid "Your e-mail address :"
+msgstr "あなたのメールアドレス："
+
+#: views/WPVQShortcode.php:395
+msgid "Show my results >>"
+msgstr "結果を表示する >>"
+
+#: views/WPVQShortcode.php:399
+msgid "Ignore & see my results >>"
+msgstr ""
+
+#: views/WPVQShortcode.php:443 views/WPVQShortcodeResults.php:190
+msgid "Share your results"
+msgstr "あなたの結果を共有する"
+
+#: views/WPVQShortcode.php:526 views/WPVQShortcodeResults.php:262
+msgid "↺ &nbsp; PLAY AGAIN !"
+msgstr ""
+
+#: views/WPVQShortcode.php:559
+msgid "This quiz has been created with"
+msgstr "このクイズが作成されて"
+
+#: views/WPVQShortcode.php:597
+msgid "You have to give your e-mail to see your results."
+msgstr "結果を確認するためにはメールアドレスを登録しなければなりません。"
+
+#: views/WPVQShortcode.php:598
+msgid "You have to give your nickname to see your results."
+msgstr "結果を確認するためにあなたのニックネームを入力する必要があります。"
+
+#: views/WPVQShowAddons.php:5 wp-viral-quiz.php:383
+msgid "Awesome Addons"
+msgstr "拡張アドオン"
+
+#: views/WPVQShowAddons.php:12
+msgid ""
+"You can get awesome addons for WP Viral Quiz, and add new features to your "
+"site. If you need support, <a href=\"https://www.institut-pandore.com/wp-"
+"viral-quiz/support/\" target=\"_blank\">contact us</a>."
+msgstr ""
+"WP Viral Quizのための拡張機能を取得しサイトに新しい機能を追加することができま"
+"す。あなたがサポートする必要がある場合は、 <a href=\"https://www.institut-"
+"pandore.com/wp-viral-quiz/support/\" target=\"_blank\">問い合わせる</a>."
+
+#: views/WPVQShowAddons.php:20
+msgid ""
+"You need to <strong>put a valid Envato Purchase Code</strong> on the WP "
+"Viral Quiz settings page to access the awesome addons page."
+msgstr ""
+"必要な場合に拡張機能のページにアクセスするにはWP Viral Quiz設定ページで"
+"<strong>有効なEnvato購入コード</strong>を設定します。"
+
+#: views/WPVQShowAddons.php:32
+msgid "WP Viral Quiz - Analytics"
+msgstr "WP Viral Quiz  - 解析"
+
+#: views/WPVQShowAddons.php:38
+msgid "Track players on your site like a boss, with Google Analytics."
+msgstr "Googleアナリティクスで共有をしているプレイヤーを追跡します。"
+
+#: views/WPVQShowAddons.php:41
+msgid ""
+"See how many people play your quizzes, how many time they spend on your "
+"site, what do they do after a quiz, how many people shares on social media, "
+"etc."
+msgstr ""
+"多くの人々があなたのクイズ（多くの時彼らはあなたのサイトに費やします）をプレ"
+"イします。クイズの後（多くの場合では人々はソーシャルメディアに共有します）プ"
+"レイヤーがそうしたかを確かめてください"
+
+#: views/WPVQShowAddons.php:44
+msgid "Use each awesome features of Google Analytics to track your players."
+msgstr ""
+"あなたのプレイヤーを追跡するためのGoogle Analyticsの各トラッキング機能を使用"
+"してください。"
+
+#: views/WPVQShowAddons.php:49 views/WPVQShowAddons.php:112
+msgid "The plugin is enabled on your blog."
+msgstr "プラグインはあなたのブログで有効になっています。"
+
+#: views/WPVQShowAddons.php:53 views/WPVQShowAddons.php:116
+msgid "Configure the plugin"
+msgstr "プラグインを設定します"
+
+#: views/WPVQShowAddons.php:58 views/WPVQShowAddons.php:121
+msgid ""
+"Ho, it seems the plugin is installed on your blog <strong>but it's not "
+"enabled</strong>."
+msgstr ""
+"プラグインがあなたのブログにインストールされているようである<strong>しかしそ"
+"れが有効になっていない</strong>"
+
+#: views/WPVQShowAddons.php:60 views/WPVQShowAddons.php:123
+msgid "Enable the plugin"
+msgstr "プラグインを有効にします"
+
+#: views/WPVQShowAddons.php:67 views/WPVQShowAddons.php:130
+msgid "Price :"
+msgstr "価格："
+
+#: views/WPVQShowAddons.php:67
+msgid "free, pay with a tweet"
+msgstr "無料、つぶやきでのお支払い"
+
+#: views/WPVQShowAddons.php:76
+msgid "Thank you so much ! <3"
+msgstr "どうもありがとうございます ！ <3"
+
+#: views/WPVQShowAddons.php:80 views/WPVQShowAddons.php:136
+msgid "Download the plugin"
+msgstr "プラグインをダウンロード"
+
+#: views/WPVQShowAddons.php:84 views/WPVQShowAddons.php:140
+msgid ""
+"Once you have downloaded the file, install it like any other plugin "
+"<strong>and come back here</strong>."
+msgstr ""
+"ファイルをダウンロードしたら他のプラグインのようにインストールして<strong>こ"
+"こに戻ります</strong>。"
+
+#: views/WPVQShowAddons.php:98
+msgid "WP Viral Quiz - Save Answers"
+msgstr ""
+
+#: views/WPVQShowAddons.php:104
+msgid "Save answers of each player when they end a quiz."
+msgstr ""
+
+#: views/WPVQShowAddons.php:107
+msgid "Learn more things about your players, by saving all their answers."
+msgstr ""
+
+#: views/WPVQShowAddons.php:130
+msgid "free"
+msgstr ""
+
+#: views/WPVQShowPlayers.php:7
+msgid "Players Database"
+msgstr "プレイヤーデータベース"
+
+#: views/WPVQShowPlayers.php:12
+msgid "Player has been removed."
+msgstr "プレイヤーは削除されました。"
+
+#: views/WPVQShowPlayers.php:18
+msgid "All players for this quiz have been removed."
+msgstr ""
+
+#: views/WPVQShowPlayers.php:35 views/WPVQShowQuizzes.php:42
+msgid "Title"
+msgstr "タイトル"
+
+#: views/WPVQShowPlayers.php:36 views/WPVQShowQuizzes.php:43
+msgid "Type"
+msgstr "タイプ"
+
+#: views/WPVQShowPlayers.php:37 views/WPVQShowQuizzes.php:45
+msgid "Created on"
+msgstr "上で作成"
+
+#: views/WPVQShowPlayers.php:38
+msgid "Number of players"
+msgstr ""
+
+#: views/WPVQShowPlayers.php:52
+msgid "Get more data"
+msgstr ""
+
+#: views/WPVQShowPlayers.php:65 views/WPVQShowQuizzes.php:105
+msgid "You haven't created any quiz yet !"
+msgstr "あなたはまだクイズを作成していません！"
+
+#: views/WPVQShowPlayers.php:66 views/WPVQShowQuizzes.php:106
+msgid "Click on a \"<b>Create Button</b>\" just above to begin."
+msgstr "開始するには\"<b>ボタン作成</b>\"をクリックします。"
+
+#: views/WPVQShowPlayers.php:75 views/WPVQShowPlayers.php:105
+#: views/WPVQShowQuizzes.php:124
+msgid "Pages"
+msgstr "ページ"
+
+#: views/WPVQShowPlayers.php:90
+msgid "Total"
+msgstr "すべて"
+
+#: views/WPVQShowPlayers.php:90
+msgid "players"
+msgstr "プレイヤー"
+
+#: views/WPVQShowPlayers.php:91
+msgid "Export the table to a CSV file"
+msgstr "CSVファイルにテーブルをエクスポート"
+
+#: views/WPVQShowPlayers.php:94
+msgid "Do you really want to delete them ?"
+msgstr ""
+
+#: views/WPVQShowPlayers.php:94
+msgid "Delete all players for this quiz"
+msgstr ""
+
+#: views/WPVQShowPlayers.php:121
+msgid "People"
+msgstr "人々"
+
+#: views/WPVQShowPlayers.php:122
+msgid "Result"
+msgstr "結果"
+
+#: views/WPVQShowPlayers.php:123
+msgid "Date"
+msgstr "日付"
+
+#: views/WPVQShowPlayers.php:124
+msgid "Meta"
+msgstr "メタ"
+
+#: views/WPVQShowPlayers.php:140
+msgid "Anonymous"
+msgstr "匿名"
+
+#: views/WPVQShowPlayers.php:145
+#, php-format
+msgid "%s ago"
+msgstr "%s 以前"
+
+#: views/WPVQShowPlayers.php:168
+msgid "No one has played this quiz yet!"
+msgstr "誰もまだこのクイズをプレイしていません！"
+
+#: views/WPVQShowPlayers.php:178
+msgid "Informations about anonymous players :"
+msgstr "匿名のプレーヤーについての情報："
+
+#: views/WPVQShowPlayers.php:179
+msgid ""
+"If your quiz asks for first name/email at the end, \"anonymous players\" are "
+"people which don't fill the form and leave the page."
+msgstr ""
+"お使いクイズで最後に名前/メールアドレスを要求する場合は、匿名のプレーヤーは"
+"フォームに記入するページを放置しないで人です。"
+
+#: views/WPVQShowQuizzes.php:11
+msgid "Create a \"Trivia\" Quiz"
+msgstr ""
+
+#: views/WPVQShowQuizzes.php:12
+msgid "Create a \"Personality\" Quiz"
+msgstr "\"性格診断\" クイズを作成する"
+
+#: views/WPVQShowQuizzes.php:17
+msgid "Quiz has been duplicated."
+msgstr "クイズは複製されました。"
+
+#: views/WPVQShowQuizzes.php:23
+msgid "Quiz has been removed."
+msgstr "クイズは削除されました。"
+
+#: views/WPVQShowQuizzes.php:29
+msgid "A new quiz has been created."
+msgstr "新しいクイズを作成しました。"
+
+#: views/WPVQShowQuizzes.php:35
+msgid "The pack has been imported."
+msgstr ""
+
+#: views/WPVQShowQuizzes.php:44
+msgid "Author"
+msgstr "制作者"
+
+#: views/WPVQShowQuizzes.php:46
+msgid "Last Update"
+msgstr "最終更新日"
+
+#: views/WPVQShowQuizzes.php:47
+msgid "Shortcode"
+msgstr "ショートコード"
+
+#: views/WPVQShowQuizzes.php:75
+msgid "Update"
+msgstr "更新"
+
+#: views/WPVQShowQuizzes.php:76
+msgid "Duplicate"
+msgstr "複製"
+
+#: views/WPVQShowQuizzes.php:77
+msgid "Export"
+msgstr ""
+
+#: views/WPVQShowQuizzes.php:78
+msgid "Delete"
+msgstr "削除"
+
+#: views/WPVQShowQuizzes.php:96
+msgid ""
+"<strong>You can't publish a quiz by yourself</strong>. <br />Ask an admin."
+msgstr ""
+
+#: views/WPVQShowQuizzes.php:115
+msgid "Upload one (or several) quiz pack"
+msgstr "1 つ (または複数) のクイズ パックをアップロードします。"
+
+#: views/WPVQShowQuizzes.php:116
+msgid "Upload and import quiz pack(s)"
+msgstr "クイズパックをアップロードしインポート"
+
+#: views/WPVQShowQuizzes.php:135
+msgid "Questions you may ask about this plugin"
+msgstr "質問はあなたがこのプラグインについて尋ねることができます"
+
+#: views/WPVQShowQuizzes.php:137
+msgid "Do not forget to take a look at the official F.A.Q : "
+msgstr "公式のFAQを見てみることを忘れないでください："
+
+#: views/WPVQShowQuizzes.php:140
+msgid "What is a \"Trivia\" quiz ?"
+msgstr ""
+
+#: views/WPVQShowQuizzes.php:142
+msgid ""
+"When playing a Trivia quiz, people have to give the right answer for each of "
+"your questions.\n"
+"\t\t\t\tAt the end, they can share their score with their friends on social "
+"media."
+msgstr ""
+
+#: views/WPVQShowQuizzes.php:145 views/WPVQShowQuizzes.php:158
+msgid "Examples : "
+msgstr "例："
+
+#: views/WPVQShowQuizzes.php:148
+msgid "How Much Do You Actually Know About <code>#RandomTopic</code>"
+msgstr "どれくらいあなたは実際に知っていますか？ <code>#RandomTopic</code> "
+
+#: views/WPVQShowQuizzes.php:149
+msgid "Can You Answer These Basic <code>#RandomTopic</code> Questions?"
+msgstr ""
+"これらの基本的な <code>#RandomTopic</code> の質問を答えることができますか？"
+
+#: views/WPVQShowQuizzes.php:150 views/WPVQShowQuizzes.php:163
+msgid "Click here to see an example."
+msgstr "ここをクリックして例を参照してください。"
+
+#: views/WPVQShowQuizzes.php:153
+msgid "What is a \"Personality\" quiz ?"
+msgstr "\"性格診断\"クイズとは何ですか？"
+
+#: views/WPVQShowQuizzes.php:155
+msgid ""
+"By playing a Personality quiz, people have to answer questions about them, "
+"their behavor, what they like, etc. \n"
+"\t\t\t\t\tAt the end, you tell them which kind of people they are."
+msgstr ""
+"性格診断クイズをプレイすることにより人々は、彼らの行動、彼らが好きなものな"
+"ど、それらについての質問に回答する事になります。\n"
+"\t\t\t\t\t最後にあなたはユーザーがどのような性格かを回答する必要があります。"
+
+#: views/WPVQShowQuizzes.php:161
+msgid "Which <code>#RandomTVShow</code> Character Are You?"
+msgstr ""
+"<code>#RandomTVShow</code> この文字はあなたにはどのように表示されていますか？"
+
+#: views/WPVQShowQuizzes.php:162
+msgid "What Does Your <code>#RandomStuff</code> Say About Your Personality?"
+msgstr "あなたは <code>#RandomStuff</code> の性格について何と回答しますか？"
+
+#: views/WPVQShowQuizzes.php:166
+msgid "How to insert a quiz in my article or page ?"
+msgstr "自分の記事やページ内にクイズを挿入する方法は？"
+
+#: views/WPVQShowQuizzes.php:168
+msgid ""
+"Just look at the <code>shortcode column</code> in the main table above. Copy "
+"and paste this shortcode to the content of your page/post, and save it ! The "
+"quiz will appear on the page."
+msgstr ""
+"ただ、上記のメインテーブルでは<code>shortcode column</code>を見てください。コ"
+"ピーしてあなたのページ/投稿の内容にこのショートコードを貼り付け、それを保存！"
+"クイズは、ページに表示されます。"
+
+#: views/WPVQShowQuizzes.php:171
+msgid "I need help / I need a new feature / I need a pizza"
+msgstr "助けを必要 / 新しい機能を必要 / ピザを必要"
+
+#: views/WPVQShowQuizzes.php:173
+msgid ""
+"About the pizza, we have already eaten it, sorry. But if you need something "
+"else, feel free to contact us"
+msgstr ""
+"ピザについて我々はすでに申し訳ありませんが食べてしましました。しかし、何か他"
+"に質問がある場合はお気軽にお問い合わせください。"
+
+#: views/WPVQShowQuizzes.php:173
+msgid "by clicking here"
+msgstr "こちらをクリックして"
+
+#: views/WPVQShowQuizzes.php:173
+msgid "in french or english"
+msgstr "フランス語または英語で"
+
+#: views/WPVQShowQuizzes.php:176
+msgid ""
+"All the answers to my quizzes are shown on a 3 columns grid. Is there a way "
+"to change it ?"
+msgstr ""
+"私のクイズへのすべての答えは、3列のグリッドに表示されます。それを変更する方法"
+"はありますか？"
+
+#: views/WPVQShowQuizzes.php:178
+msgid ""
+"Yup ! Try this shortcode : <code>[viralQuiz id=XXX columns=2]</code> to "
+"display your answers on a 2 columns grid."
+msgstr ""
+"このショートコードを試してみてください：<code>[viralQuiz id=XXX columns=2]</"
+"code>で2列のグリッド上にあなたの答えを表示します。"
+
+#: wp-viral-quiz.php:54
+#, php-format
+msgid "I'm %%personality%%"
+msgstr "私は %%personality%% です"
+
+#: wp-viral-quiz.php:55 wp-viral-quiz.php:56
+#, php-format
+msgid "I'm %%personality%%, and you ?"
+msgstr "私は %%personality%% です！あなたは?"
+
+#: wp-viral-quiz.php:59
+#, php-format
+msgid "I got %%score%% of %%total%% right"
+msgstr "%%score%% のうち %%total%% 正解を獲得 !"
+
+#: wp-viral-quiz.php:60 wp-viral-quiz.php:61
+#, php-format
+msgid "I got %%score%% of %%total%% right, and you ?"
+msgstr "%%score%% のうち %%total%% 正解を獲得 ! あなたは ?"
+
+#: wp-viral-quiz.php:72
+msgid "SOMETHING NEW is happening with WP Viral Quiz !"
+msgstr "新しい何かがWPウイルスクイズで起こっています！"
+
+#: wp-viral-quiz.php:74
+msgid ""
+"Discover the <strong>new \"Awesome Addons\" page</strong>, and add new "
+"features to your quizzes."
+msgstr ""
+"<strong>新しい\"素晴らしいアドオン\"のページ</strong>を発見しあなたのクイズに"
+"新しい機能を追加します。"
+
+#: wp-viral-quiz.php:78
+msgid "Cool, hide this message and show me !"
+msgstr "クール、このメッセージを非表示にし私を見る！"
+
+#: wp-viral-quiz.php:382
+msgid "Players"
+msgstr "プレイヤー"
+
+#: wp-viral-quiz.php:415
+msgid ""
+"Some unsaved settings will be lost. Do you really want to leave without "
+"saving ?"
+msgstr ""
+
+#: wp-viral-quiz.php:443
+msgid ""
+"Some changes have been made. Do you really want to close the page without "
+"saving ?"
+msgstr "いくつかの変更が加えられました。保存しないでページを閉じますか？"
+
+#: wp-viral-quiz.php:444
+msgid "You have to give a name to your quiz please !"
+msgstr "あなたはクイズに名前を登録しなければなりません！"
+
+#: wp-viral-quiz.php:445
+msgid "You have to set a score condition for each appreciations !"
+msgstr "あなたは1回の理解ごとに1つのスコア条件を設定する必要がある！"
+
+#: wp-viral-quiz.php:446
+msgid ""
+"You must create some personalities to associate each answers with a "
+"personality. To create a personality, go to the Personalities Tab."
+msgstr ""
+
+#: wpvq-settings-page.php:36
+msgid "General Options"
+msgstr "一般的なオプション"
+
+#: wpvq-settings-page.php:43
+msgid "Auto-scroll on game"
+msgstr "ゲームの自動スクロール"
+
+#: wpvq-settings-page.php:51
+msgid "Scroll speed<br>(in milliseconds)"
+msgstr "スクロール速度<br>(ミリ秒)"
+
+#: wpvq-settings-page.php:59
+msgid "Allow subscribers ?"
+msgstr ""
+
+#: wpvq-settings-page.php:71
+msgid "Multipages Quiz Settings"
+msgstr "複数ページクイズ設定"
+
+#: wpvq-settings-page.php:78
+msgid "Display progressbar"
+msgstr "プログレスバー表示"
+
+#: wpvq-settings-page.php:86
+msgid "Text in the progressbar"
+msgstr "プログレスバーのテキスト"
+
+#: wpvq-settings-page.php:94
+msgid "Progressbar color"
+msgstr "プログレスバーの色"
+
+#: wpvq-settings-page.php:102
+msgid "Time before changing page"
+msgstr "ページを変更する前の時間"
+
+#: wpvq-settings-page.php:102
+msgid "(in milliseconds)"
+msgstr "(ミリ秒)"
+
+#: wpvq-settings-page.php:113
+msgid "Ads Settings"
+msgstr "広告設定"
+
+#: wpvq-settings-page.php:120
+msgid "Just before each quiz"
+msgstr "各クイズの直前に"
+
+#: wpvq-settings-page.php:128
+msgid "Just after each quiz"
+msgstr "各クイズの直後に"
+
+#: wpvq-settings-page.php:152
+msgid "No ads for these quizzes :"
+msgstr "これらのクイズには広告がありません："
+
+#: wpvq-settings-page.php:163
+msgid "Enable Facebook Share Button"
+msgstr "Facebookで共有ボタンを有効にします"
+
+#: wpvq-settings-page.php:170
+msgid "Your Facebook APP ID"
+msgstr "自分のFacebookアプリID"
+
+#: wpvq-settings-page.php:178
+msgid "Don't use Facebook API"
+msgstr "FacebookのAPIを使用しないでください"
+
+#: wpvq-settings-page.php:186
+msgid "Facebook SDK already included"
+msgstr "Facebook SDKすでに含まれています"
+
+#: wpvq-settings-page.php:197
+msgid "Social Networking Options"
+msgstr "ソーシャルネットワーキングオプション"
+
+#: wpvq-settings-page.php:204
+msgid "Display button for :"
+msgstr "表示ボタン："
+
+#: wpvq-settings-page.php:212
+msgid "Which Twitter hashtag do you want to use:"
+msgstr "これはTwitterのハッシュタグは、使用する操作を行います。"
+
+#: wpvq-settings-page.php:220
+msgid "Which Twitter @mention do you want to use:"
+msgstr ""
+
+#: wpvq-settings-page.php:231 wpvq-settings-page.php:273
+msgid "Social Media Sharebox Settings "
+msgstr "ソーシャルメディアシェアボックスの設定"
+
+#: wpvq-settings-page.php:231
+msgid "<span class=\"vq-badge vq-badge-primary\">For Personality Quiz</span>"
+msgstr ""
+"<span class=\"vq-badge vq-badge-primary\">パーソナリティのためのクイズ</span>"
+
+#: wpvq-settings-page.php:238 wpvq-settings-page.php:281
+msgid "Text on your page<br />(below the quiz) :"
+msgstr "ページ上のテキスト<br />(クイズの次) :"
+
+#: wpvq-settings-page.php:246 wpvq-settings-page.php:289
+msgid "Content for Twitter :"
+msgstr "Twitterのための内容："
+
+#: wpvq-settings-page.php:254 wpvq-settings-page.php:297
+msgid "Content for Facebook Title :"
+msgstr "Facebookの投稿のためのタイトル："
+
+#: wpvq-settings-page.php:262 wpvq-settings-page.php:305
+msgid "Content for Facebook Description :"
+msgstr "Facebookのための内容の説明："
+
+#: wpvq-settings-page.php:273
+msgid "<span class=\"vq-badge vq-badge-primary\">For TrueFalse Quiz</span>"
+msgstr "<span class=\"vq-badge vq-badge-primary\">真偽のためのクイズ</span>"
+
+#: wpvq-settings-page.php:316
+msgid "Enable Auto Update"
+msgstr "自動更新を有効にします"
+
+#: wpvq-settings-page.php:323
+msgid "Your Envato Purchase Code :"
+msgstr "あなたのEnvato購入コード："
+
+#: wpvq-settings-page.php:334 wpvq-settings-page.php:933
+msgid "Under the Hood"
+msgstr "フードの下"
+
+#: wpvq-settings-page.php:341
+msgid "Don't resize GIF picture"
+msgstr "GIF画像のサイズを変更しないでください"
+
+#: wpvq-settings-page.php:349
+msgid "Display links instead of pictures (backoffice)"
+msgstr "写真の代わりにリンクを表示します。 (バックオフィス) "
+
+#: wpvq-settings-page.php:357
+msgid "Allow minified files"
+msgstr "ファイルの縮小を許可"
+
+#: wpvq-settings-page.php:365
+msgid "Disable players logs"
+msgstr "プレイヤーのログを無効"
+
+#: wpvq-settings-page.php:373
+msgid "Auto Scroll Offset"
+msgstr "自動スクロールオフセット"
+
+#: wpvq-settings-page.php:381
+msgid "Auto Scroll Offset (for Mobile)"
+msgstr ""
+
+#: wpvq-settings-page.php:389
+msgid "Custom CSS code"
+msgstr "カスタムCSSコード"
+
+#: wpvq-settings-page.php:415
+msgid "Auto-scroll to the next question each time someone click an answer."
+msgstr "毎回誰かが答えをクリックして次の質問に自動スクロール。"
+
+#: wpvq-settings-page.php:439
+msgid "Allow subscribers role to create quizzes"
+msgstr ""
+
+#: wpvq-settings-page.php:448
+msgid ""
+"Configure your multipages quizzes easily. To understand how to create a "
+"multipages quiz,"
+msgstr ""
+"簡単に複数ページクイズを設定します。 複数ページクイズを作成する方法を理解する"
+"には、"
+
+#: wpvq-settings-page.php:450
+msgid "read the #3 on the FAQ."
+msgstr "FAQの＃3をお読みください。"
+
+#: wpvq-settings-page.php:469
+msgid "Hide progressbar"
+msgstr "プログレスバーを非表示"
+
+#: wpvq-settings-page.php:470
+msgid "Display above the quiz"
+msgstr "クイズ上記の表示"
+
+#: wpvq-settings-page.php:471
+msgid "Display below the quiz"
+msgstr "クイズ下部の表示"
+
+#: wpvq-settings-page.php:472
+msgid "Display above and below"
+msgstr "上記および下記の表示"
+
+#: wpvq-settings-page.php:485
+msgid "Leave blank"
+msgstr "空白のままにしておきます"
+
+#: wpvq-settings-page.php:486
+msgid "Show progress percentage (ex: 70%)"
+msgstr "進捗率を表示 (例: 70%)"
+
+#: wpvq-settings-page.php:487
+msgid "Show progress page per page (ex: page 7/10)"
+msgstr "ページ毎の進行状況ページを表示します (例: 7/10ページ)"
+
+#: wpvq-settings-page.php:511
+msgid ""
+"With no pause, people won't see if they are right or wrong "
+"<strong>(TriviaQuiz only)</strong>."
+msgstr ""
+"彼らが正しいか間違っている場合は、一時停止して回答者には表示されません "
+"<strong>(トリビアクイズのみ)</strong>."
+
+#: wpvq-settings-page.php:521
+msgid ""
+"You can <strong>put some ads above and below each of your quizzes</strong>. "
+"Just copy and paste the HTML code of your ads in the field below."
+msgstr ""
+"<strong>あなたのクイズの上と下にそれぞれの場所に広告を設置することができます"
+"</strong>。下のフィールドに広告コードを貼り付けます。"
+
+#: wpvq-settings-page.php:523
+msgid ""
+"If you don't want to display ads for some quizzes, put their ID in the \"no "
+"ads\" field (comma separated)."
+msgstr ""
+"一部のクイズで広告を表示したくない場合は「広告なし」フィールドに自分のIDを入"
+"れます（カンマ区切り）。"
+
+#: wpvq-settings-page.php:525
+msgid ""
+"<strong>You can also configure specific content quiz by quiz</strong>, when "
+"building your quiz. Look for the “ads and content” settings section on the "
+"building page."
+msgstr ""
+
+#: wpvq-settings-page.php:585
+msgid ""
+"To enable the Facebook share button, you have to create a Facebook App with "
+"your Facebook account. Don't panic, <strong>it's VERY easy</strong>."
+msgstr ""
+"Facebookの共有ボタンを有効にするには、自分のFacebookのアカウントでFacebookの"
+"アプリを作成する必要があります。慌てないでください、<strong>それは非常に簡単"
+"です</strong>。"
+
+#: wpvq-settings-page.php:587
+msgid "Click here to understand how to create a Facebook App."
+msgstr ""
+"Facebookのアプリを作成する方法を理解するには、ここをクリックしてください。"
+
+#: wpvq-settings-page.php:605
+msgid "We do not recommend it, check this box if you know what you are doing."
+msgstr ""
+"お勧めできませんが、あなたは何をしているかわかっている場合はこのチェックボッ"
+"クスをオンにします。"
+
+#: wpvq-settings-page.php:616
+msgid ""
+"Check if FB SDK is already included on your site. Ignore it if you don't "
+"understand."
+msgstr ""
+"FB SDKが既にあなたのサイトに含まれているか確認してください。あなたが理解でき"
+"ない場合はこれを無視してください。"
+
+#: wpvq-settings-page.php:625
+msgid "What share buttons do you want to display below the quiz results?"
+msgstr "シェアボタンをクイズの結果の下に表示しますか？"
+
+#: wpvq-settings-page.php:627
+msgid ""
+"If you don't want to display share buttons under a particular quiz, you can "
+"disable them when you create your quiz."
+msgstr ""
+"特定のクイズでシェアボタンを表示したくない場合は、クイズを作成するときに無効"
+"にすることができます。"
+
+#: wpvq-settings-page.php:666
+msgid ""
+"Configure share box content for Facebook and Twitter, when people share your "
+"quizzes. "
+msgstr ""
+"人々があなたのクイズを共有する場合、FacebookやTwitterの共有ボックスの内容を設"
+"定します。"
+
+#: wpvq-settings-page.php:668
+msgid ""
+"Unfortunately, <strong>Google+ does not let us customize the text</strong> "
+"when sharing."
+msgstr ""
+"残念ながら、<strong>Google+はの共有テキストをカスタマイズする</ strong>ことは"
+"できません。"
+
+#: wpvq-settings-page.php:670
+msgid "will be replaced by the final result"
+msgstr "最終的な結果に置き換えられます"
+
+#: wpvq-settings-page.php:671
+msgid "will be replaced by the personality description"
+msgstr "性格の説明に置き換えられます"
+
+#: wpvq-settings-page.php:672 wpvq-settings-page.php:720
+msgid "will be replaced by the number of questions"
+msgstr "質問の数に置き換えられます"
+
+#: wpvq-settings-page.php:673 wpvq-settings-page.php:721
+msgid "will be replaced by the name of your quiz"
+msgstr "クイズの名前に置き換えられます"
+
+#: wpvq-settings-page.php:716
+msgid "Same as the previous section, but for trivia quiz only."
+msgstr "前のセクションと同様ですが、しかしトリビアクイズにのみ。"
+
+#: wpvq-settings-page.php:718
+msgid "will be replaced by the final score"
+msgstr "最終的なスコアに置き換えられます"
+
+#: wpvq-settings-page.php:719
+msgid "will be replaced by the appreciation"
+msgstr "感謝の気持ちに置き換えられます"
+
+#: wpvq-settings-page.php:766
+msgid ""
+"To enable auto-update (very recommended), you have to put your Envato "
+"Purchase Code here."
+msgstr ""
+"自動更新（非常に推奨）を有効にするには、ここにあなたのEnvato購入のコードを配"
+"置する必要があります。"
+
+#: wpvq-settings-page.php:768
+msgid "Click here to understand how to get your purchase code."
+msgstr "ご購入コードを取得する方法を理解するには、ここをクリックしてください。"
+
+#: wpvq-settings-page.php:784
+msgid "Complex or very specific settings. Ignore them if you don't need them."
+msgstr ""
+"複雑または非常に特有の設定。あなたがそれらを必要としない場合はそれを無視しま"
+"す。"
+
+#: wpvq-settings-page.php:793
+msgid ""
+"Do not resize gif automatically on your quizzes (resize destroyes the "
+"animation)"
+msgstr ""
+"あなたのクイズで自動的にGIFのサイズを変更しないでください（アニメーションのサ"
+"イズ変更を破棄）"
+
+#: wpvq-settings-page.php:804
+msgid ""
+"Display links instead of pictures when building a quiz (faster to load for "
+"big quizzes)"
+msgstr ""
+"クイズを構築するときの写真の代わりにリンクを表示します。 (巨大なクイズを高速"
+"に読み込む) "
+
+#: wpvq-settings-page.php:815
+msgid "Check this box if you want to disable the anti-minify protection system"
+msgstr ""
+"あなたが最小化停止の保護システムを無効にしたい場合は、このチェックボックスを"
+"オンにします。"
+
+#: wpvq-settings-page.php:826
+msgid "Disable players logs, except when you ask a firstname/e-mail"
+msgstr ""
+"あなたがファーストネーム/メール要求したときを除き、プレイヤーの履歴を無効にし"
+"ます"
+
+#: wpvq-settings-page.php:886
+msgid "Need some help ?"
+msgstr ""
+
+#: wpvq-settings-page.php:903
+msgid "Settings updated."
+msgstr "設定更新"
+
+#: wpvq-settings-page.php:919
+msgid "General"
+msgstr ""
+
+#: wpvq-settings-page.php:920
+msgid "Ads Manager"
+msgstr ""
+
+#: wpvq-settings-page.php:921
+msgid "Configure Facebook"
+msgstr ""
+
+#: wpvq-settings-page.php:922
+msgid "Configure Sharing"
+msgstr ""
+
+#: wpvq-settings-page.php:926
+msgid "Multipages Quizzes"
+msgstr ""
+
+#: wpvq-settings-page.php:927
+msgid "Customise Personality Quizzes"
+msgstr ""
+
+#: wpvq-settings-page.php:928
+msgid "Customise Trivia Quizzes"
+msgstr ""
+
+#: wpvq-settings-page.php:932
+msgid "Enable Auto-update"
+msgstr ""
+
+#~ msgid "BETA FEATURE"
+#~ msgstr "ベータ版の機能"
+
+#~ msgid "Feel free to contact us"
+#~ msgstr "お気軽にお問い合わせください"
+
+#~ msgid "if you need help about this settings page."
+#~ msgstr "あなたはこの設定ページについてのヘルプが必要な場合。"
+
+#~ msgid "Sections Menu :"
+#~ msgstr "セクションメニュー："
+
+#~ msgid "Facebook Share Button"
+#~ msgstr "Facebook シェアボタン"
+
+#~ msgid "Social Media Sharebox Settings"
+#~ msgstr "ソーシャルメディアのSharebox設定"
+
+#~ msgid "Scroll to the settings section"
+#~ msgstr "設定セクションにスクロール"
+
+#~ msgid "Go back to personalities"
+#~ msgstr "性格診断に戻る"
+
+#~ msgid "step"
+#~ msgstr "ステップ"
+
+#~ msgid "Save this quiz"
+#~ msgstr "このクイズを保存"
+
+#~ msgid "True/False Quiz"
+#~ msgstr "真/偽 クイズ"
+
+#~ msgid "Personality Quiz"
+#~ msgstr "性格診断クイズ"
+
+#~ msgid "Type your quiz name here"
+#~ msgstr "ここにあなたのクイズの名前を入力します"
+
+#~ msgid "Good to know :"
+#~ msgstr "お役立ち情報："
+
+#~ msgid ""
+#~ "If you rename an existing personality, it will reset points associated to "
+#~ "this personality on the next page."
+#~ msgstr ""
+#~ "既存の性格の名前を変更する場合、次のページでこの性格に関連するポイントをリ"
+#~ "セットします。"
+
+#~ msgid "Let's go to build the quiz"
+#~ msgstr "クイズの構築を行う"
+
+#~ msgid "Quiz results depending on the score (optional)"
+#~ msgstr "スコアに応じたクイズの結果（オプション）"
+
+#~ msgid "Global options : configure the quiz"
+#~ msgstr "一般オプション：クイズを構成してください"
+
+#~ msgid "Choose a quiz :"
+#~ msgstr "クイズを選択します。"
+
+#~ msgid "View stats and players"
+#~ msgstr "統計とプレイヤーの表示"
+
+#~ msgid "Create a \"True/False\" Quiz"
+#~ msgstr "\"２択（真/偽）\"クイズを作成する"
+
+#~ msgid "What is a \"TrueFalse\" quiz ?"
+#~ msgstr "\"２択（真/偽）\" クイズとは何ですか？"
+
+#~ msgid ""
+#~ "When playing a TrueFalse quiz, people have to give the right answer for "
+#~ "each of your questions.\n"
+#~ "\t\t\t\tAt the end, they can share their score with their friends on "
+#~ "social media."
+#~ msgstr ""
+#~ "２択（真/偽）クイズをプレイするとき人々はあなたの質問のそれぞれに対する正"
+#~ "解を設定する必要があります。\n"
+#~ "\t\t\t\t終了時にユーザーはソーシャルメディア上で友人に結果を共有することが"
+#~ "できます。"
+
+#~ msgid "Virality & Marketing"
+#~ msgstr "バイラル & マーケティング"
+
+#~ msgid "People have to give their e-mail to see their results"
+#~ msgstr "ユーザーは結果を参照するためにメールを登録する必要があります。"
+
+#~ msgid "People have to give their first name to see their results"
+#~ msgstr "ユーザーは結果を参照するために名前を登録する必要があります。"
+
+#~ msgid "Top Ads Code"
+#~ msgstr "上部の広告コード"
+
+#~ msgid "Bottom Ads Code"
+#~ msgstr "下部の広告コード"
+
+#~ msgid "This player doesn't exist."
+#~ msgstr "このユーザーは存在しません。"
+
+#~ msgid ""
+#~ "You can buy awesome addons for WP Viral Quiz, and add new features to "
+#~ "your quizzes. If you need support, just send me an e-mail at "
+#~ "<strong>support@institut-pandore.com</strong>."
+#~ msgstr ""
+#~ "あなたはWP Viral Quizのための拡張アドオンを購入し、あなたのクイズに新しい"
+#~ "機能を追加することができます。あなたがサポートを必要とする場合は、"
+#~ "<strong>support@institut-pandore.com</strong>の時に私に電子メールを送信し"
+#~ "ます"
+
+#~ msgid "Download on CodeCanyon"
+#~ msgstr "CodeCanyonからダウンロード"
+
+#~ msgid ""
+#~ "You got <span class=\"wpvq-score\"></span> out of <span class=\"wpvq-total"
+#~ "\">%s</span> right!"
+#~ msgstr ""
+#~ "あなたは<span class=\"wpvq-total\">%s</span>問のうち<span class=\"wpvq-"
+#~ "total\"></span>問を正解!"
+
+#~ msgid "You are :"
+#~ msgstr "あなたは次のとおりです："
+
+#~ msgid "How to customize the look of my quizzes ?"
+#~ msgstr "私のクイズの外観をカスタマイズするには？"
+
+#~ msgid ""
+#~ "We deliver this plugin with 2 default themes : BuzzFeed-like theme, and a "
+#~ "Modern Flat theme. If you want to\n"
+#~ "\t\t\t\t\t\t\t\tcreate your own CSS theme, just copy <code>/wp-content/wp-"
+#~ "viral-quiz/css/wpvq-custom.css</code> into\n"
+#~ "\t\t\t\t\t\t\t\tyour template directory and write your CSS into it. Then "
+#~ "create or edit a quiz and \n"
+#~ "\t\t\t\t\t\t\t\tchoose \"Custom Skin\" in the skin select menu."
+#~ msgstr ""
+#~ "BuzzFeedのようなテーマ、近代フラットテーマ：我々は2つのデフォルトのテーマ"
+#~ "でこのプラグインを提供します。\n"
+#~ "\t\t\t\t\t\t\t\tあなたがあなた自身のCSSのテーマを作成したい場合は、ちょう"
+#~ "どあなたのテンプレートディレクトリには<code>/wp-content/wp-viral-quiz/css/"
+#~ "wpvq-custom.css</ code>をコピーしてその中にあなたのCSSを記述します。\n"
+#~ "\t\t\t\t\t\t\t\tあなたのテンプレートディレクトリとは、その中にあなたのCSS"
+#~ "を記述します。そして\n"
+#~ "\t\t\t\t\t\t\t\t作成したり、クイズを編集してスキン選択メニューで\"カスタム"
+#~ "スキン\"を選択します。"
+
+#~ msgid ""
+#~ "Unfortunately,<strong>Google+ does not let us customize the text</strong> "
+#~ "when sharing."
+#~ msgstr ""
+#~ "残念ながら、<strong>Google+の共有テキスト</ strong>をカスタマイズすること"
+#~ "はできません。"
+
+#~ msgid "I got %s out of %d right, on %s"
+#~ msgstr "%sで %d の %s を正解"
+
+#~ msgid "I got %s out of %d right ! And you ?"
+#~ msgstr "%s のうち %d 正解を獲得 ! あなたは ?"
+
+#~ msgid "I'm %s ! And you ? %s"
+#~ msgstr "私は %s です、あなたは？ %s"
+
+#~ msgid "I'm %s ! And you ?"
+#~ msgstr "私は %s です！あなたは?"
+
+#~ msgid "Most common result"
+#~ msgstr "最も一般的な結果"
+
+#~ msgid "Click here to show your results !"
+#~ msgstr "あなたの結果を表示するにはここをクリックしてください！"
+
+#~ msgid "Your Facebook APP ID :"
+#~ msgstr "あなたのFacebook APP ID :"
+
+#~ msgid "What personality does it represent : "
+#~ msgstr "どの選択の性格として表示しますか？："
+
+#~ msgid "Try this : %s"
+#~ msgstr "これを試してみてください : %s"
+
+#~ msgid "I got %s out of %d on %s"
+#~ msgstr "%s の %d から %s を獲得"

@@ -1,0 +1,714 @@
+@import url("//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css");
+
+/**
+ * Basic bloc
+ */
+
+.vq-bloc {
+	border: 1px solid #e5e5e5;
+	-webkit-box-shadow: 0 1px 1px rgba(0,0,0,.04);
+	box-shadow: 0 1px 1px rgba(0,0,0,.04);
+	background: #fff;
+	margin-bottom:15px;
+}
+
+.vq-bloc h3 {
+	font-size: 1.2em;
+	padding: 8px 12px;
+	margin:0px;
+	display: block;
+	border-bottom: 1px solid #eee;
+}
+
+.vq-bloc .vq-content {
+	padding:16px 12px;
+}
+
+.vq-rightAnswer {
+	font-size:.8em;	
+}
+
+.vq-upload_image_button {
+	margin-top:10px;
+}
+
+.vq-actions {
+	padding:10px 15px 5px 15px;
+}
+
+.vq-delete-label {
+	color:#a00;
+}
+
+.delete-question-button {
+	float:left;
+	display: block;
+}
+
+.vq-position-label {
+	float:right;
+	font-size:.95em;
+}
+
+.vq-position-label input {
+	width:35px;
+	height:20px;
+	font-size:.95em;
+	text-align: center;
+}
+
+.vq-delete-label:hover {
+	color:red;
+	cursor:pointer;
+}
+
+.vq-content .vq-explain-answer {
+	margin-bottom:0px;
+}
+
+.vq-content div[id^=cke_] {
+	/*margin-top:20px;*/
+}
+
+
+.vq-image-bloc {
+	text-align: center;
+	position: relative;
+	margin-bottom:20px;
+}
+
+.vq-image-bloc-button {
+	position:absolute;
+	z-index:1;
+	width:100%;
+	text-align: center;
+	margin-top:20px;
+}
+
+.vq-image-bloc-picture img.vq-pictureUploaded {
+	min-height:40px;
+}
+
+/* Picture link for miniature mode (question) */
+.vq-content a.wpvq-picture-url-link {
+	display: block;
+	padding-top:55px;
+	background:#feffc2;
+}
+/* Picture link for miniature mode (answer) */
+.vq-content .vq-bloc-answer-content a.wpvq-picture-url-link {
+	display: block;
+	padding-top:40px;
+	background:#feffc2;
+}
+
+.vq-image-bloc img {
+	width:100%;
+	border-radius:3px;
+}
+
+.vq-explain-bloc, .vq-page-after-bloc {
+	padding:0 15px;
+}
+
+.vq-bloc.vq-bloc-answer-content h3 {
+	line-height:200%;
+}
+
+.vq-bloc-answer-content .vq-image-bloc-picture img {
+	max-width:300px;
+}
+
+/* Empty image, nothing uploaded. */
+.vq-content img[src=""] {
+	visibility: hidden;
+}
+
+/**
+ * Documentation F.A.Q
+ */
+
+#vq-doc {
+	margin-top:20px;
+}
+
+#vq-doc ul {
+	list-style-type: disc;
+	margin-left:40px;
+}
+
+/**
+ * Quizzes list display
+ */
+
+ul.wpvq-list-pages {
+	
+}
+
+ul.wpvq-list-pages li {
+	display: inline;
+}
+
+ul.wpvq-list-pages li a {
+	text-decoration: none;
+}
+
+ul.wpvq-list-pages li.wpvq-current-page a {
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+#vq-quizzes-list {
+	margin-top:25px;
+}
+
+abbr {
+	border-bottom:1px dashed black;
+}
+
+abbr:hover {
+	cursor:help;
+}
+
+/**
+ * Badge
+ */
+
+span.vq-badge {	
+	padding:3px;
+	color:white;
+	font-size:.72em;
+	border-radius:2px;
+}
+
+span.vq-badge-primary {
+	background:#3498db;
+}
+
+span.vq-badge-warning {
+	background:#e67e22;
+}
+
+span.vq-badge-success {
+	background:#2ecc71;
+}
+
+span.vq-badge-neutral {
+	background:#ecf0f1;
+	color:black
+}
+
+/**
+ * Add personalities
+ */
+
+ul#vq-list-personality {
+	margin-left:30px;
+	list-style-type: disc;
+}
+
+ul#vq-list-personality li {
+
+}
+
+div.wpvq-alert-no-personality {
+	background:#fee8e6;
+	color:#c0392b;
+	font-size:13px;
+	line-height: 130%;
+	padding:6px;
+	margin:10px 0;
+}
+
+/**
+ * Answer bloc
+ */
+
+.vq-answers .vq-bloc {
+
+}
+
+.vq-explain-textarea {
+
+}
+
+.hide-the-editor {
+	display: none;
+	margin-bottom:30px;
+}
+
+/**
+ * Create quiz fixed bloc
+ */
+
+/* Fixed block on the right */
+#wpvq-fixed-shortcuts {
+	width:30%;
+	position:fixed;
+	top:100px;
+	right:0;
+	background:white;
+	border:1px solid #eee;
+	padding-left:20px;
+}
+
+#wpvq-fixed-shortcuts ul li {
+	margin-left:10px;
+}
+
+#wpvq-fixed-shortcuts ul li:hover {
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+/* Options on top of the window */
+div.wpvq-window-options {
+	text-align: right;
+	padding:4px;
+}
+
+span.wpvq-window-options-minimize {
+	background:white;
+	border:0;
+}
+
+span.wpvq-window-options-minimize:hover {
+	cursor: pointer;
+}
+
+/**
+ * Add question bloc 
+ */
+
+input.vq-quiz-name {
+	font-size: 1.7em;
+	height: 1.7em;
+	width: 100%;
+	outline: 0;
+	background-color: #fff;
+	/*margin-top:6px;*/
+	margin-bottom:20px;
+}
+
+input.vq-quiz-name + p {
+	margin-top:20px;
+}
+
+.vq-add-question, .vq-add-personality, .vq-add-appreciation {
+	outline:2px dashed #B3B3B3;
+	color:#B3B3B3;
+	padding:30px 0;
+	text-align: center;
+	font-size:1.6em;
+	margin-bottom:10px;
+}
+
+.vq-add-question:hover, .vq-add-personality:hover, .vq-add-appreciation:hover {
+	outline:2px dashed #7D7D7D;
+	color:#7D7D7D;
+	cursor: pointer;
+	background:#F7F7F7;
+}
+
+.area-wpvq-submit-tab {
+	text-align: center;
+	margin-top:30px;
+}
+
+.area-wpvq-submit-tab button.wpvq-submit-tab {
+	font-size:18px;
+	padding:6px 12px;
+	height:auto;
+}
+
+small.wpvq-title-readonly .wpvq-title-label {
+	border-bottom:1px dashed black;
+	padding:3px 0;
+}
+
+/**
+ * Add answer bloc
+ */
+
+input.vq-appreciation-label, input.vq-scoreCondition-label  {
+	color:#444;
+	font-size: 1.2em;
+	font-family: "Open Sans",sans-serif;
+	font-weight: bold;
+	width: 80%;
+}
+
+/* Question area */
+textarea.vq-question-label {
+	color:#444;
+	font-size: 1em;
+	font-family: "Open Sans",sans-serif;
+	font-weight: bold;
+	width: 100%;
+	height:50px;
+	margin-top:10px;
+}
+
+input.vq-answer-label {
+	color:#444;
+	font-size: 1em;
+	font-family: "Open Sans",sans-serif;
+	font-weight: bold;
+	width: 80%;
+}
+
+.vq-add-answer {
+	color:white;
+	background:#3498db;
+	/*border:2px solid #2980b9;*/
+	padding:10px 20px;
+	text-align: center;
+	font-size:1em;
+	display: inline-block;
+	margin:0 auto;
+}
+
+.vq-add-answer:hover {
+	color:white;
+	background:#2980b9;
+	cursor: pointer;
+}
+
+.vq-bloc-answer-content {
+	border-left:2px solid #3498db;
+}
+
+.wpvq-delete-picture-answer, .wpvq-delete-picture-question {
+	color:#a00;
+	display: none;
+}
+
+.wpvq-delete-picture-answer:hover, .wpvq-delete-picture-question:hover {
+	cursor:pointer;
+	color:red;
+}
+
+.wpvq-protip, .wpvq-protip-warning {
+	padding:6px;
+	background:#c9ffe0;
+	color:#059b45;
+	border-radius:3px;
+}
+
+.wpvq-protip-warning {
+	background: #FFE6BF;
+	color: #d35400;
+}
+
+.wpvq-protip strong, .wpvq-protip-warning strong {
+	font-size:1.1em;
+}
+
+.wpvq-multiplier-section {
+	width:26%;
+	float:left;
+	padding:4px;
+	text-align:center;
+	border-radius:2px;
+	background:#ecf0f1;
+	margin-right:5px;
+	margin-bottom:7px;
+	min-height: 80px;
+}
+
+.wpvq-multiplier-section span.wpvq-personality-label {
+	padding:5px;
+	color:white;
+	font-size:.72em;
+	border-radius:2px;
+	background:#95a5a6;
+	display: block;
+	line-height:120%;
+}
+
+.wpvq-multiplier-section select.wpvq-multiplier-selector {
+	margin:9px 0;
+}
+
+/*
+	Example True False Appreciations scoreCondition
+*/
+.wpvq-truefalse-appreciations-example {
+	margin-bottom:20px;
+}
+
+.wpvq-truefalse-appreciations-example p {
+	margin-top:0px;
+}
+
+.wpvq-truefalse-appreciations-example ul {
+	list-style: disc;
+	padding-left:40px;
+	margin-bottom:0px;
+}
+
+.wpvq-truefalse-appreciations-example ul li {
+	margin-bottom:0px;
+}
+
+/**
+ * Generic, grid, ...
+ */
+
+.vq-medium {
+	width:60%;
+}
+
+.form-table th {
+	width:70%;
+}
+
+.wpvq-clear {
+	clear: both;
+}
+
+.wpvq-clear-invisible {
+	clear: both;	
+	border:0;
+	margin:0;
+	padding:0;
+	height:0;
+}
+
+/* multiplier selector */ 
+
+.br-wrapper-h .br-widget {
+  width: 40px;
+}
+.br-wrapper-h .br-widget a {
+  display: block;
+  width: 40px;
+  height: 5px;
+  background-color: #bef5e8;
+  margin: 1px;
+}
+.br-wrapper-h .br-widget a.br-active,
+.br-wrapper-h .br-widget a.br-selected {
+  background-color: #50e3c2;
+}
+.br-wrapper-h .br-widget .br-current-rating {
+  width: 40px;
+  font-weight: 600;
+  line-height: 2;
+  text-align: center;
+  color: #50e3c2;
+}
+.br-wrapper-h .br-readonly a.br-active,
+.br-wrapper-h .br-readonly a.br-selected {
+  background-color: #50e3c2;
+}
+/* Center in container */
+.br-wrapper-h {
+  width: 40px;
+}
+
+/* Settings on quiz creation */
+
+h4.wpvq-global-settings-addquiz {
+	font-size:14px;
+	margin:0px;
+	padding:8px;
+	display: block;
+	background:#19a1d0;
+	color:white;
+}
+
+/******* BOX *******/
+.box {
+  width: 100%;
+  margin: 1em 0;
+}
+.box .box-header {
+  text-align: center;
+  font-weight: 600;
+  padding: .5em 0;
+}
+.box .box-body {
+  padding-top: 2em;
+  height: 85px;
+  
+}
+.box select {
+  width: 40px;
+  margin: 10px auto 0 auto;
+  display: block;
+}
+.box-large .box-body {
+  padding-top: 2em;
+  height: 40px;
+}
+.box-orange .box-header {
+  background-color: #edb867;
+  color: white;
+}
+.box-orange .box-body {
+  background-color: white;
+  border: 2px solid #f5d8ab;
+  border-top: 0;
+}
+.box-green .box-header {
+  background-color: #50e3c2;
+  color: white;
+}
+.box-green .box-body {
+  background-color: white;
+  border: 2px solid #92eed9;
+  border-top: 0;
+}
+.box-blue .box-header {
+  background-color: #4278f5;
+  color: white;
+}
+.box-blue .box-body {
+  background-color: white;
+  border: 2px solid #8bacf9;
+  border-top: 0;
+}
+
+a.br-selected, .br-wrapper-h .br-widget a {
+	outline: none;
+}
+
+/**
+ * Addons
+ */
+
+div.wpvq-addon-block {
+	background:white;
+	border:1px solid #e5e5e5;
+	padding:0px;
+}
+
+div.wpvq-addon-block h3 {
+	margin:0px;
+	padding:7px;
+	background:#19a1d0;
+	padding:7px;
+	color:white;
+	font-size:14px;
+}
+
+div.wpvq-addon-block .vq-content {
+	padding:7px;
+}
+
+div.wpvq-addon-block .vq-content p.vq-status {
+	
+}
+
+button.button-green {
+	background:#3F9E3F !important;
+	border:1px solid #2AAA00 !important;
+}
+
+.wpvq-led-green {
+    background: green;
+	width: 10px;
+	height: 10px;
+	border-radius: 100%;
+	display: inline-block;
+}
+
+.wpvq-download-button {
+	display: none;
+}
+
+/**
+ * Import file (quiz pack...)
+ */
+
+.wpvq-import-field .wpvq-import-loader {
+	margin:10px 0px;
+	display: none;
+}
+
+.wpvq-import-field {
+	padding:10px;
+	margin-top:10px;
+}
+
+.wpvq-import-field h4 {
+	font-weight: bold;
+	padding:0px;
+	margin:0px;
+}
+
+span.wpvq-beta {
+	font-size:9px;
+	margin-right:4px;
+	background:#34495e;
+	color:white;
+	border-radius:3px;
+	padding:3px;
+}
+
+/* ============================================================
+  Marketing Settings Section (add quiz)
+============================================================ */
+
+.wpvq-onoffswitch label {	
+	font-weight: bold;
+	display: inline-block;
+	margin-right:10px;
+}
+
+.wpvq-settings-askinfo-content {
+	padding-left:20px;
+	border-left:2px solid black;
+}
+
+.wpvq-settings-askinfo-mailchimp-content {
+	margin-top:20px;
+}
+
+/* Mailchimp Sub Settings */
+.wpvq-settings-askinfo-mailchimp-content .wpvq-settings-sub-content {
+	padding-left:20px;
+	border-left:2px solid #2c9ab7;
+}
+.wpvq-settings-askinfo-mailchimp-content .wpvq-settings-sub-content th,
+.wpvq-settings-askinfo-mailchimp-content label {
+	color:#2c9ab7;
+	font-size:13px;
+}
+
+/* Aweber Sub Settings */
+.wpvq-settings-askinfo-aweber-content .wpvq-settings-sub-content {
+	padding-left:20px;
+	border-left:2px solid #2e7ad1;
+}
+.wpvq-settings-askinfo-aweber-content .wpvq-settings-sub-content th,
+.wpvq-settings-askinfo-aweber-content label {
+	color:#2e7ad1;
+	font-size:13px;
+}
+
+/**
+ * TOOLTIP
+ */
+
+div.wpvq-tooltip { text-decoration: none; }
+div.wpvq-tooltip:hover {text-decoration:none; cursor:pointer; } 
+
+div.wpvq-tooltip span.wpvq-tooltip-content {
+    z-index:10;display:none;
+    margin-left:10px;
+    /*width:300px;*/
+    margin-top:4px;
+    font-size:14px;
+    border-radius:2px;
+    background:white;
+    border:1px solid #bebebe;
+    color:#353535;
+    padding:5px;
+    line-height: 110%;
+}
+div.wpvq-tooltip:hover span.wpvq-tooltip-content {
+    display:inline; position:absolute; 
+}
+

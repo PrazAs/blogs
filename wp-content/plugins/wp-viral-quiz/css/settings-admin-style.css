@@ -1,0 +1,125 @@
+@import url("//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css");
+
+/**
+ * Generic, grid, ...
+ */
+
+.vq-medium {
+	width:70%;
+}
+
+/* Badge */
+span.vq-badge {	
+	padding:3px;
+	color:white;
+	font-size:.8em;
+	border-radius:2px;
+}
+
+span.vq-badge-primary {
+	background:#3498db;
+}
+
+span.vq-badge-warning {
+	background:#e67e22;
+}
+
+span.vq-badge-success {
+	background:#2ecc71;
+}
+
+/* Protip and warning */
+
+.wpvq-protip, .wpvq-protip-warning {
+	padding:6px;
+	background:#c9ffe0;
+	color:#059b45;
+	border-radius:3px;
+}
+
+.wpvq-protip-warning {
+	background: #FFE6BF;
+	color: #d35400;
+}
+
+.wpvq-protip strong, .wpvq-protip-warning strong {
+	font-weight: bold;
+}
+
+/* tag list */
+ul.wpvq-tags-list {
+	margin-left:50px;
+}
+
+ul.wpvq-tags-list li {
+	list-style-type: square;
+}
+
+/* Click to zoom picture */
+img.wpvq-clicktozoom {
+	margin:15px 0;
+}
+
+img.wpvq-clicktozoom:hover {
+	opacity:.7;
+}
+
+/**
+ * Settings Page Menu Fixed
+ */
+
+.wpvq-tab-settings {
+	
+}
+
+
+#wpvq-fixed-settings-menu {
+	width:20%;
+	position:fixed;
+	top:100px;
+	right:0;
+	background:white;
+	border:1px solid #eee;
+	padding-left:20px;
+}
+
+#wpvq-fixed-settings-menu ul li {
+	margin-left:30px;
+	list-style-type:square;
+}
+
+/**
+ * Addons
+ */
+
+.wpvq-price {
+	font-size:1.3em;
+}
+
+@-webkit-keyframes thumb {
+	0% { -webkit-transform: scale(1); }
+	50% { -webkit-transform: scale(0.9); }
+	100% { -webkit-transform: scale(1); }
+}
+
+.wpvq-pay-tweet img:hover {
+	-webkit-animation-name: thumb;
+	-webkit-animation-duration: 200ms;
+	-webkit-transform-origin:50% 50%;
+	-webkit-animation-iteration-count: 2;
+	-webkit-animation-timing-function: linear;
+}
+
+#wpvq-analytic-paytweet-bloc {
+	text-align: center;
+}
+#wpvq-analytic-download-button {
+	display: none;
+	text-align: center;
+}
+
+.wpvq-need-licence {
+	background:#FFF0F0;
+	padding:10px;
+	border:1px solid red;
+}

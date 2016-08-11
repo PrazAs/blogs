@@ -1,0 +1,32 @@
+* About to connect() to server9.kproxy.com port 80 (#51)
+*   Trying 149.202.98.191...
+* Adding handle: conn: 0x1156020
+* Adding handle: send: 0
+* Adding handle: recv: 0
+* Curl_addHandleToPipeline: length: 1
+* - Conn 51 (0x1156020) send_pipe: 1, recv_pipe: 0
+* Connected to server9.kproxy.com (149.202.98.191) port 80 (#51)
+> GET /servlet/redirect.srv/sruj/snvrabu/smno/p2/search?q=seo&num=100 HTTP/1.1
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:28.0) Gecko/20100101 Firefox/28.0
+Host: server9.kproxy.com
+Accept: */*
+Referer: http://server9.kproxy.com/servlet/redirect.srv/sruj/snvrabu/smno/p2/
+Cookie: KP_DAT2__="Ym8hLXUtLiMjI05CVmdxekZINmtOCzlbNnVRbGI1UUFvNSMjI0Rfbn0odHNvQWRqVG9OXVT="
+
+< HTTP/1.1 200 OK
+< Date: Wed, 01 Jun 2016 12:25:00 GMT
+< Expires: -1
+< Cache-Control: private, max-age=0
+< P3P: CP="This is not a P3P policy! See https://www.google.com/support/accounts/answer/151657?hl=en for more info."
+* Server gws is not blacklisted
+< Server: gws
+< X-XSS-Protection: 1; mode=block
+< X-Frame-Options: SAMEORIGIN
+* Added cookie NID="79=Y1Av7bHiAu3pkzx6AVNQTlw3prAgLoIoLptjB7LYbAC1HXLoSSCYpZTdZXukP1Phh8XB3uCIPiNdvpEcwUnNTK6Kb_BYIR8bI2vHVpEAhLmyt3WjoFVM-9VHSuT2e1WS" for domain server9.kproxy.com, path /servlet/redirect.srv/sruj/snvrabu/, expire 1480595100
+< Set-Cookie: NID=79=Y1Av7bHiAu3pkzx6AVNQTlw3prAgLoIoLptjB7LYbAC1HXLoSSCYpZTdZXukP1Phh8XB3uCIPiNdvpEcwUnNTK6Kb_BYIR8bI2vHVpEAhLmyt3WjoFVM-9VHSuT2e1WS;path=/servlet/redirect.srv/sruj/snvrabu/;expires=Thu, 01-Dec-2016 12:25:00 GMT;HttpOnly;
+< Accept-Ranges: none
+< Vary: Accept-Encoding
+< Content-Type: text/html;charset=UTF-8
+< Transfer-Encoding: chunked
+< 
+* Connection #51 to host server9.kproxy.com left intact

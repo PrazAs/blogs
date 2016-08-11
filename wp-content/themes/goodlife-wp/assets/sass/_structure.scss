@@ -1,0 +1,87 @@
+#wrapper {
+	position: relative;
+	min-height: 100%;
+	width: 100%;
+	overflow: hidden;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: row;
+	@media only screen and (max-width: $break-small) {
+		height: auto;
+		min-height: 100%;
+	}
+	.boxed & {
+		max-width: 1240px;
+		
+		[role="main"],
+		#navholder {
+			background: #fff;
+		}
+	}
+	[role="main"] {
+		flex: 1;
+		position: relative;
+		z-index: 10;
+		min-height: 50vh;
+		.error404 & {
+			display: table;
+			position: relative;
+			width: 100%;
+			height: 100%;
+		}
+		&> .row {
+			background: #fff;
+		}
+	}
+	#content-container {
+		min-height: 100%;
+    width: 100%;
+		@include transition(all .45s $transition);
+		
+		.click-capture {
+			position: absolute;
+			z-index: 998;
+			top: 0;.
+			right: 0;
+			width: 0;
+			height: 0;
+			background: rgba(151,151,151,0.5);
+			content: '';
+			@include opacity(0);
+			@include transition(opacity .45s $transition);
+		}
+	}
+	&.open-menu {
+		overflow: hidden;
+		.header.fixed {
+			margin-left: 0;
+			opacity: 0;
+			@include translate3d(280px, -100%, 0);
+			
+			@media only screen and (min-width: $break-small) {
+				margin-left: 0;
+				@include translate3d(380px, -100%, 0);
+			}
+		}
+		#content-container {
+			
+			margin-left: 0;
+			@include translate3d(280px, 0, 0);
+
+			@media only screen and (min-width: $break-small) {
+				margin-left: 0;
+				@include translate3d(380px, 0, 0);
+			}
+			.click-capture {
+				width: 100%;
+				height: 100%;
+				@include opacity(1);
+				
+				left: 0;
+			}
+			#footer {
+				z-index: 101;	
+			}
+		}
+	}
+}

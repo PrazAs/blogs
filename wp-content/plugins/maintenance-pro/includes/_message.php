@@ -1,0 +1,12 @@
+<div class="error" style="padding: 0; margin: 0; border: none; background: none;">
+	<style type="text/css">.maintenance-pro-activate{min-width:1024px;background:#e1704b;-webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px;margin:15px 0;position:relative;background-image:-webkit-gradient(linear,0 0,80% 100%,from(#e1704b),to(#de6238));background-image:-moz-linear-gradient(80% 100% 120deg,#e1704b,#de6238)}.maintenance-pro-activate .maintenance-free-link{display:inline-block;padding:5px}.maintenance-pro-activate .maintenance-pro-description{color:#e5f2b1;font-family:inherit;font-size:15px;left:310px;position:absolute;top:15px;display:block}.maintenance-pro-activate .maintenance-pro-description .required-text{color:#fff;font-size:15px;font-family:inherit}.maintenance-pro-activate .maintenance-free-link .mt_button{font-weight:bold;text-decoration:none;border:1px solid #029dd6;border-top:1px solid #06b9fd;font-size:15px;text-align:center;padding:9px 0 8px 0;color:#FFF;background:#029dd6;background-image:-webkit-gradient(linear,0 0,0 100%,from(#029dd6),to(#0079b1));background-image:-moz-linear-gradient(0 100% 90deg,#0079b1,#029dd6);-moz-border-radius:2px;border-radius:2px;-webkit-border-radius:2px;display:block;width:276px}.maintenance-pro-activate .maintenance-free-link .mt_button:hover{text-decoration:none !important;border:1px solid #029dd6;border-bottom:1px solid #00a8ef;font-size:15px;text-align:center;padding:9px 0 8px 0;color:#f0f8fb;background:#0079b1;background-image:-webkit-gradient(linear,0 0,0 100%,from(#0079b1),to(#0092bf));background-image:-moz-linear-gradient(0 100% 90deg,#0092bf,#0079b1);-moz-border-radius:2px;border-radius:2px;-webkit-border-radius:2px}</style>
+	<div class="maintenance-pro-activate">
+		<div class="maintenance-free-link">
+			<a class="mt_button" href="http://wordpress.org/plugins/maintenance/" target="_blank"> <?php _e('Download free version', 'maintenance-pro'); ?></a>
+		</div>
+		<div class="maintenance-pro-description">
+			<span class="required-text"><?php _e( 'Maintenance free is required', 'maintenance-pro' ) ?> </span> - <?php _e( 'Please download and install free basic version to get PRO features', 'maintenance-pro' ); ?>
+		</div>
+	</div>
+</div>
+	

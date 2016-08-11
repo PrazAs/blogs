@@ -1,0 +1,153 @@
+.post-review {
+	border: 2px solid #f0f0f0;
+	
+	&.style1 {
+		margin: 0 0 20px;
+	}
+	&.style2 {
+		width: 100%;
+		float: left;
+		margin: 0 0 20px;
+		@media only screen and (min-width: $break-small) {
+			width: 50%;
+			margin: 0 30px 20px 0;
+		}
+		.comment_section {
+			margin-bottom: 20px;
+		}
+		.average {
+			margin: 0 -14px -14px -14px;
+			
+			@media only screen and (min-width: $break-small) {
+				margin: 0 -30px -30px -30px;	
+			}
+		}
+	}
+	&.style3 {
+		margin-top: 30px;
+	}
+	.post-review-content {
+		border-bottom: 1px solid #f0f0f0;
+		padding: 12px;
+		
+		@media only screen and (min-width: $break-small) {
+			padding: 28px;
+		}
+	}
+	.post-review-bottom {
+		padding: 12px;
+		
+		@media only screen and (min-width: $break-small) {
+			padding: 28px;
+		}
+	}
+	h6 {
+		text-transform: uppercase;
+		margin-bottom: 15px;	
+		
+		@media only screen and (min-width: $break-small) {
+			margin-bottom: 30px;	
+		}
+	}
+	ul {
+		margin: 0;
+		list-style: none;
+		li {
+			margin-bottom: 15px;
+			font-size: 12px;
+			font-weight: 600;
+			color: $color1;
+			@extend .titlefont;
+			
+			@media only screen and (min-width: $break-small) {
+				margin-bottom: 25px;	
+			}
+			
+			&:last-child {
+				margin-bottom: 0;	
+			}
+			.hide-for-small {
+				text-align: right;
+			}
+			.progress {
+				width: 100%;
+				background: #eeeeee;
+				height: 14px;
+				margin-top: 4px;
+				span {
+					background: $color3;
+					display: block;
+					height: 14px;
+					width: 0;
+				}
+			}
+		}	
+	}
+	.comment_section {
+		margin-bottom: 15px;
+		@media only screen and (min-width: $break-small) {
+			margin-bottom: 0;	
+		}
+		p {
+			display: block;
+			margin-bottom: 10px;
+			position: relative;
+			padding-left: 24px;
+			font-size: 12px;
+			line-height: 14px;
+			&:before {
+				content: '';
+				display: block;
+				width: 14px;
+				height: 14px;
+				line-height: 16px;
+				color: #fff;
+				border-radius: 7px;
+				text-align: center;
+				position: absolute;
+				top: 0;
+				left: 0;
+				@extend .titlefont;
+			}	
+			&.positive:before {
+				content: '+';
+				background: #0fbf5e;
+			}
+			&.negative:before {
+				content: '-';
+				background: #fe3166;
+			}
+		}
+	}
+	.post_comment {
+		text-transform: uppercase;
+		font-size: 12px;
+		font-weight: 600;
+		display: block;
+		margin-bottom: 20px;
+		color: $color1;
+		@extend .titlefont;
+	}
+	.average {
+		display: block;
+		margin: 0;
+		padding: 0;
+		text-align: center;
+		font-size: 38px;
+		line-height: 1;
+		padding: 15px;
+		color: #fff;
+		background: $color3;
+		font-weight: 600;
+		@media only screen and (min-width: $break-small) {
+			padding: 25px 15px;
+			margin: 0;
+		}
+		@media only screen and (min-width: $break-medium) {
+			padding: 35px 15px;
+		}
+		@media only screen and (min-width: $break-medium) {
+			padding: 45px 15px;
+		}
+	}
+}

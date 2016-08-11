@@ -1,0 +1,225 @@
+/**
+ * A flat skin for WP Viral Quiz
+ * @Name : flat
+ * @Author : Stéphane Paton
+ */
+
+/* A nice font. */
+@import url("//fonts.googleapis.com/css?family=Montserrat:400,700");
+
+.wpvq {
+	font-family: 'Montserrat', 'Arial', 'sans-serif';
+}
+
+.wpvq-answer {
+	background: #ecf0f1;
+	border:3px solid #ecf0f1;
+	border-radius:2px;
+	color:#5f5f5f;
+}
+
+/* Answer mouse hover */
+.wpvq-answer:hover {
+	background: #a2ded0;
+	border:3px solid #a2ded0;
+	transition: background 550ms ease-out;
+	cursor: pointer;
+}
+
+/* Answer selected (exception for personality, stuck the color) */
+.Personality .wpvq-answer.wpvq-choose {
+	/*background:#1bbc9b;*/
+	background: #a2ded0;
+	border:3px solid #12c49b;
+	color:#5f5f5f;
+}
+
+/* When user select a right answer */
+.wpvq-answer.wpvq-answer-true {
+	background:#2ecc71;
+	color:#3d3d3d;
+}
+
+/* When user select a false answer */
+.wpvq-answer.wpvq-answer-false {
+	background:#f64747;
+	color:#fff;
+}
+
+/* When user select a photo neutral answer */
+.wpvq-answer.wpvq-answer-enabled {
+	background:#f1c40f;
+	color:#3d3d3d;
+}
+
+/* Answers disabled (after clicking an answer) */
+.wpvq-answer.wpvq-answer-disabled {
+	background:#f2f2f2;
+	color:#8a8a8a;
+}
+
+
+/**
+ * -- CHECKBOX --
+ */
+
+#preload-checkbox-checked { background: url(flat-checkbox-ok.jpg) no-repeat -9999px -9999px; }
+
+/* Hidden checkbox */
+input.vq-css-checkbox {
+	position: absolute;
+    z-index: -1000;
+    left: -1000px;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    width: 1px;
+    margin: -1px;
+    padding: 0;
+    border: 0;
+}
+
+input.vq-css-checkbox + label.vq-css-label {
+    padding-left: 31px;
+    height: auto;
+    display: inline-block;
+    line-height: 19px;
+    background-repeat: no-repeat;
+    /*font-weight: bold;*/
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+input.vq-css-checkbox:checked + label.vq-css-label {
+    background-image: url(flat-checkbox-ok.jpg);
+}
+
+label.vq-css-label {
+    background-image: url(flat-checkbox-no.jpg);
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/**
+ * -- TRUE/FALSE EXPLAINATION BLOCK --
+ */
+
+/* Right answer selected */
+div.wpvq-explaination div.wpvq-true {
+	color:#2ecc71;
+	font-weight: bold;
+	display: none;
+	font-size:1.2em;
+}
+
+/* Wrong answer selected */
+div.wpvq-explaination div.wpvq-false {
+	color:#f64747;
+	font-weight: bold;
+	display: none;
+	font-size:1.2em;
+}
+
+/* Block with explaination */
+div.wpvq-explaination {
+	padding:10px 20px 0 20px;
+	border:1px solid #dddddd;
+	display: none;
+}
+
+/**
+ * -- FINAL BLOCK SCORE/PERSONALITY --
+ */
+
+div#wpvq-forceToShare-before-results {
+	background: #ecf0f1;
+	text-align:center;
+}
+
+
+/* Ask informations form */
+div#wpvq-ask-before-results {
+	background: #ecf0f1;
+	
+}
+
+div#wpvq-ask-before-results label {
+	
+}
+
+/* Divs with final score (you got X of Y !) & final personality result (you are ____) */
+div#wpvq-final-score, div#wpvq-final-personality, div#wpvq-ask-before-results, div#wpvq-forceToShare-before-results {
+	padding:10px 20px 10px 20px;
+	margin-top:30px;
+	background: #ecf0f1;
+	display: none;
+	margin-bottom:20px;
+}
+
+div#wpvq-ask-before-results {
+	padding:20px;
+}
+
+/* Title in the final personality result block */
+div#wpvq-final-personality .wpvq-you-are {
+	margin-top:15px;
+	font-size:1.3em;
+	color:black;
+}
+
+/* Content block on final personality result */
+div#wpvq-final-personality .wpvq-personality-content {
+
+}
+
+/* Personality name on the final block */
+div#wpvq-final-personality .wpvq-personality-label {
+	font-size:1.3em;
+	font-weight: bold;
+	color:black;
+}
+
+/* Score headline, on the final score block */
+div#wpvq-final-score span.wpvq-headline {
+	font-weight: bold;
+	font-size:1.3em;
+}
+
+/* Share buttons div */
+div#wpvq-share-buttons {
+	border-top:1px solid #dedede;
+	padding-top:10px;
+}
+/* Share buttons images */
+div#wpvq-share-buttons img {
+	width: 35px;
+	padding: 5px;
+	border: 0;
+	box-shadow: 0;
+	display: inline;
+	text-decoration: none;
+}
+div#wpvq-share-buttons a {
+	border:0;
+}
+
+/* Texte "share your results" */
+div#wpvq-share-buttons span.wpvq-share-results {
+	text-transform: uppercase;
+	font-size:1.2em;
+	color:black;
+	display: block;
+}
+
+/* Quiz title on the result block */
+span.wpvq-quiz-title {
+	display: block;
+	font-size:.8em;
+	color:#797979;
+}
+
+

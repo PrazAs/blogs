@@ -1,0 +1,183 @@
+/* Sidr */
+#mobile-menu {
+	position: fixed;
+	top: 0;
+	height: 100%;
+	z-index: 99;
+	padding: 15px 5px 15px 15px;
+	width: 280px;
+	background: #fff;
+	overflow: hidden;
+	left:0;
+	@include translateX(-280px);
+	.touch & {
+		overflow-x: hidden !important;
+		overflow-y: scroll !important;
+		-ms-overflow-style: -ms-autohiding-scrollbar !important;
+		-webkit-overflow-scrolling: touch !important;	
+	}
+	@include transition(all .35s $transition);
+	
+	@media only screen and (min-width: $break-small) {
+		width: 380px;
+		padding: 20px 10px 20px 20px;
+		left: 0;
+		@include translateX(-380px);
+	}
+	.open-menu &{
+		visibility: visible;
+		@include translateX(0);
+	}
+	.admin-bar & {
+		padding-top: 46px;
+		
+		@media screen and (min-width: 783px){
+		  padding-top: 32px;
+		}
+	}
+	.social-links {
+		padding: 20px 15px 15px;
+		text-align: center;
+		@media only screen and (min-width: $break-small) {
+			padding: 30px 15px 25px;	
+		}
+		a {
+			color: $color1;
+			margin: 0 7px;	
+		}
+		
+	}
+	.menu-footer {
+		text-align: center;
+		padding: 0 15px;
+		font-size: 11px;
+		line-height: 16px;
+		color: $color1;
+		p {
+			font-size: inherit;
+			&:last-child {
+				margin: 0;	
+			}
+		}
+	}
+}
+
+/* Mobile Menu */
+.mobile-menu {
+	list-style: none;
+	margin: 0;
+	padding: 0 10px 0 0;
+	width: 100%;
+	clear: left;
+	background: #fff;
+	@include backface-visibility(hidden);
+	
+	&.secondary {
+		padding-top: 20px;
+		padding-right: 0;
+		display: flex;
+		flex-flow: row wrap;
+		li {
+			flex: 0 0 50%;
+			overflow: hidden;
+			text-overflow: ellipsis;
+			
+			&:nth-child(even) {
+				padding-left: 10px;	
+			}
+		}
+		a {
+			border: none;
+			font-size: 10px;
+			font-weight: 500;
+			padding: 8px 0 7px;
+			text-transform: uppercase;
+		}
+	}
+	li {
+		margin: 0;
+		span {
+			display: block;
+			position: absolute;
+			height: 48px;
+			padding: 16px 0 16px 17px;
+			top: 0;
+			right: 0;
+			@extend .transition;
+			
+			.fa {
+				vertical-align: middle;
+				width: 16px;
+				height: 16px;
+				line-height: 16px;
+				text-align: center;
+				font-size: 10px;
+				background: #e6e6e6;
+				font-weight: 400;
+				color: #fff;
+			}
+			
+			&:hover {
+				
+				.fa {
+					background: $color1;
+				}
+					
+			}
+			.rtl & {
+				right: auto;
+				left: 0;
+			}
+		}
+		a {
+			display: block;
+			line-height: 12px;
+			font-size: 12px;
+			font-weight: 600;
+			color: $color1;
+			position: relative;
+			text-transform: uppercase;
+			padding: 19px 0 16px;
+			border-bottom: 1px solid #f0f0f0;
+			@extend .transition;
+			&.active {
+				span {
+					.fa {
+						background: $color1;
+					}
+					
+					.fa-plus:before {
+						content: "\f068";
+					}
+				}
+			}
+		}
+	}
+	
+	.sub-menu {
+		display: none;
+		list-style: none;
+		margin: 0;
+		padding: 0 0 0 10px;
+		border-bottom: 1px solid #f0f0f0;
+		.sub-menu {
+			padding: 0 0 0 10px;
+		}
+		li {
+			a {
+				text-transform: none;
+				padding-left: 0;
+				font-weight: 400;
+				font-size: 11px;
+				&.active {
+					background: #fff;
+				}
+			}
+			&:last-child {
+				a {
+					border: 0;
+				}	
+			}
+		}
+	}
+}

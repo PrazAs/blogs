@@ -1,0 +1,98 @@
+.soratble-wrap  { 
+	display: block; 
+	float: left; 
+	width: 100%; 
+}
+
+.soratble-wrap #sortable-gallery-pro { 
+	float: left; 
+	margin-bottom: 20px;  
+	width: 100%; 
+}
+
+.soratble-wrap #sortable-gallery-pro li { 
+	float:left; 
+	position:relative; 
+	width:100%; 
+	max-width:150px;
+	height:150px; 
+	display:block; 
+	margin:5px 10px; 
+	padding:2px; 
+	cursor:pointer
+}
+
+.soratble-wrap #sortable-gallery-pro li.item img {
+	max-width: 100%;
+    min-height: 100%;
+}
+
+.soratble-wrap #sortable-gallery-pro li > .delete_thumb  {
+	position:absolute; 
+	top: 8px; 
+	right: 8px; 
+	display:none; 
+}
+.soratble-wrap #sortable-gallery-pro li:hover > .delete_thumb  {
+	display:block; 
+}
+
+.soratble-wrap #sortable-gallery-pro .ui-SortPlaceHolder {
+	border:1px dashed #c7c3c1; 
+	padding:0;
+}
+
+#remove_all_thumbs {
+	margin:0 0 0 20px;
+}
+
+.admin_overlays {
+	display:inline-block;
+	margin:0 0 0 20px;
+	position:relative;
+}
+
+.admin_overlays #example-overlay {
+    background-position: 0 0;
+    background-repeat: repeat;
+    display: block;
+    height: 20px;
+    margin: 0 0 0 15px;
+    position: absolute;
+    right: -25px;
+    top: 5px;
+    width: 20px;
+}
+
+
+.delay-time {
+	display:inline-block;
+	margin:0 0 0 45px;
+	position:relative;
+}
+
+.delay-time input#delay_time {
+	text-align:center;
+	margin:0 0 0 10px;
+	width:125px;
+}
+
+#clear_date {
+	margin: 0 0 0 10px;
+}
+
+#example-overlay._1 {background-image:url("../frontend/overlays/1.png");}
+#example-overlay._2 {background-image:url("../frontend/overlays/2.png");}
+#example-overlay._3 {background-image:url("../frontend/overlays/3.png");}
+#example-overlay._4 {background-image:url("../frontend/overlays/4.png");}
+#example-overlay._5 {background-image:url("../frontend/overlays/5.png");}
+#example-overlay._6 {background-image:url("../frontend/overlays/6.png");}
+#example-overlay._7 {background-image:url("../frontend/overlays/7.png");}
+#example-overlay._8 {background-image:url("../frontend/overlays/8.png");}
+#example-overlay._9 {background-image:url("../frontend/overlays/9.png");}
+#example-overlay._10 {background-image:url("../frontend/overlays/10.png");}
+#example-overlay._11 {background-image:url("../frontend/overlays/11.png");}
+#example-overlay._12 {background-image:url("../frontend/overlays/12.png");}
+#example-overlay._13 {background-image:url("../frontend/overlays/13.png");}
+#example-overlay._14 {background-image:url("../frontend/overlays/14.png");}
+#example-overlay._15 {background-image:url("../frontend/overlays/15.png");}

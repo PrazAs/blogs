@@ -1,6 +1,17 @@
 # Enable Rewrite Engine
 RewriteEngine On
 
+# BEGIN WordPress
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]
+</IfModule>
+# END WordPress
+
 Redirect 301 /blog/1st-grade-math-games-to-play-while-dining-out	/1st-grade-math-games-to-play-while-dining-out/
 Redirect 301 /blog/28-keywords-to-conquer-2nd-grade-math-word-problems	/28-keywords-to-conquer-2nd-grade-math-word-problems/
 Redirect 301 /blog/2nd-grade-common-core-math-get-comfortable-with-math-vocabulary	/2nd-grade-common-core-math-get-comfortable-with-math-vocabulary/
@@ -158,9 +169,3 @@ Redirect 301 /blog/why-your-child-gets-stumped-by-5th-grade-math-word-problems-a
 Redirect 301 /blog/bid/365967/win-a-free-month-of-tabtor	/win-a-free-month-of-tabtor/
 Redirect 301 /blog/bid/332996/Yes-America-Agrees-Math-is-the-Most-Important-Subject-of-All	/yes-america-agrees-math-is-the-most-important-subject-of-all/
 Redirect 301 /blog/yummy-yummy-math-activities-your-kindergartner-can-do-while-snacking	/yummy-yummy-math-activities-your-kindergartner-can-do-while-snacking/
-
-
-# BEGIN WordPress
-
-
-# END WordPress
